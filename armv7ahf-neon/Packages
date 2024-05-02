@@ -8232,14 +8232,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-dbg
-Version: 1+git1194+3d0cd83-r0
+Version: 1+git1196+6a80b0d-r0
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 21ecea25785923b7d92f12129183914c
-SHA256sum: eea62f9a54bda648efdd3fa29efa524323867d43bf842db5790593c8b9f9b761
-Size: 770
-Filename: enigma2-plugin-extensions-youtube-dbg_1+git1194+3d0cd83-r0_armv7ahf-neon.ipk
+MD5Sum: becae9e0dd25fbaaed8525799ba36b5f
+SHA256sum: fb4de15fad4e348862049879cd01484a3d3186d9cf4f2faa32c5b8516ead27a6
+Size: 768
+Filename: enigma2-plugin-extensions-youtube-dbg_1+git1196+6a80b0d-r0_armv7ahf-neon.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Debugging files
 OE: enigma2-plugin-extensions-youtube
@@ -8248,16 +8248,16 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-dev
-Version: 1+git1194+3d0cd83-r0
-Depends: enigma2-plugin-extensions-youtube (= 1+git1194+3d0cd83-r0)
+Version: 1+git1196+6a80b0d-r0
+Depends: enigma2-plugin-extensions-youtube (= 1+git1196+6a80b0d-r0)
 Recommends: python3-codecs-dev, python3-core-dev, python3-dev, python3-json-dev, python3-netclient-dev, python3-pyopenssl-dev, python3-twisted-web-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c89c6dae330588ad706d62dca458084d
-SHA256sum: 64bd3a7dc175e7ae4c311c24a1dc6fadc2ff3bfc5d61607ef7796516257d2047
-Size: 858
-Filename: enigma2-plugin-extensions-youtube-dev_1+git1194+3d0cd83-r0_armv7ahf-neon.ipk
+MD5Sum: b21120818c1ed24cd232e22083fe81e8
+SHA256sum: 862f3bd128690db01a2c36d3e6b24c4663c6a93da143e6d015010787ef2772c3
+Size: 856
+Filename: enigma2-plugin-extensions-youtube-dev_1+git1196+6a80b0d-r0_armv7ahf-neon.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Development files
 OE: enigma2-plugin-extensions-youtube
@@ -8266,14 +8266,14 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-src
-Version: 1+git1194+3d0cd83-r0
+Version: 1+git1196+6a80b0d-r0
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7272157f3220bc6a3ddbcb5226c942c
-SHA256sum: b6288259835116e43489594ad732467a37b24bda977f4c097bb3618afb4804cc
-Size: 32340
-Filename: enigma2-plugin-extensions-youtube-src_1+git1194+3d0cd83-r0_armv7ahf-neon.ipk
+MD5Sum: 8dc658aa87910c8129efa4e52b487f9f
+SHA256sum: da71613892a9ce1a90c1324a1289a676dd4ea5a6239c56575b4a4499a938d199
+Size: 32572
+Filename: enigma2-plugin-extensions-youtube-src_1+git1196+6a80b0d-r0_armv7ahf-neon.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Source files
 OE: enigma2-plugin-extensions-youtube
@@ -8282,15 +8282,15 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube
-Version: 1+git1194+3d0cd83-r0
+Version: 1+git1196+6a80b0d-r0
 Depends: python3-codecs, python3-core, python3-json, python3-netclient, python3-pyopenssl, python3-twisted-web
 Section: multimedia
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 70a3659b4b197b4076f76e35b1bff4f5
-SHA256sum: 30ddb42da16f52b5b67963f5dba5b92d9b7a543c1d74df059a8b9829c9d33f88
-Size: 107968
-Filename: enigma2-plugin-extensions-youtube_1+git1194+3d0cd83-r0_armv7ahf-neon.ipk
+MD5Sum: 4db1c15fe21e37913070581b4b3d8266
+SHA256sum: 684b7a3af6e1a1f6d336c57c80f42a9acdd6ca2e7c5e59f2b0b205d570049b1a
+Size: 108308
+Filename: enigma2-plugin-extensions-youtube_1+git1196+6a80b0d-r0_armv7ahf-neon.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos
 OE: enigma2-plugin-extensions-youtube
@@ -76404,14 +76404,14 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openpli-bootlogo-dbg
-Version: 20240501-r0
+Version: 20240502-r0
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: 7bff68cf37b78d10cba55eede4c1c335
-SHA256sum: 57398246e0f3f50406ff7e0cea7d391158c32afae6db1dac3be3da0d52948eaf
+MD5Sum: df3c6a534e0e09e3f9eed0473f801b1b
+SHA256sum: 5f8b2b0ae894127137fefde99b4f9f4f18d99ee978a4df8c9c1c8eb75e8f8a68
 Size: 662
-Filename: openpli-bootlogo-dbg_20240501-r0_armv7ahf-neon.ipk
+Filename: openpli-bootlogo-dbg_20240502-r0_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0 - Debugging files
 OE: openpli-bootlogo
@@ -76419,16 +76419,16 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo-dev
-Version: 20240501-r0
-Depends: openpli-bootlogo (= 20240501-r0)
+Version: 20240502-r0
+Depends: openpli-bootlogo (= 20240502-r0)
 Recommends: initscripts-dev, showiframe-dev, update-rc.d-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: 3d95cb96398721555a9d0a0d55ed1d8b
-SHA256sum: 4c3454b13837226af61832f13877727ff8319e9a90c8977ea0dd710e81b68236
+MD5Sum: 41a427e431ccece9764be1d4a328942b
+SHA256sum: 886129af7fcf51de75ffa60e008a445a8206ee1fffb05137b9145608538eba43
 Size: 730
-Filename: openpli-bootlogo-dev_20240501-r0_armv7ahf-neon.ipk
+Filename: openpli-bootlogo-dev_20240502-r0_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0 - Development files
 OE: openpli-bootlogo
@@ -76436,16 +76436,16 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo
-Version: 20240501-r0
+Version: 20240502-r0
 Depends: showiframe
 Recommends: update-rc.d
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: e3c041caf5cf88e0142e2c1ff378b8df
-SHA256sum: a70e9b4ce641aaea4b2182315a8119ab72ed5c4e44d9ead51ce9c1aeb49c416b
+MD5Sum: 35c4d4c6282f06e80e907d90498ee3fb
+SHA256sum: 4177fb4b2e6381108b90f118fb98881131c808ecda29a501acab1b122fc0232a
 Size: 149274
-Filename: openpli-bootlogo_20240501-r0_armv7ahf-neon.ipk
+Filename: openpli-bootlogo_20240502-r0_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0
 OE: openpli-bootlogo

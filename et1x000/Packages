@@ -163,8 +163,8 @@ Version: 3.0.14-r89
 Section: base
 Architecture: et1x000
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 33706e9571a77e124c02378604424177
-SHA256sum: 815a227a88adb337b0c4654d6d02a54b80a7cb5d18578efd9b4af710bad57a9d
+MD5Sum: 37b9bbae40637107c21598c1c64fd93b
+SHA256sum: cbd7a85dd1f12b8b885b7a9cc2cfbaabb440b216d885febfb33c6fcfd9dbe2aa
 Size: 3720
 Filename: base-files_3.0.14-r89_et1x000.ipk
 Source: base-files_3.0.14.bb
@@ -224,8 +224,8 @@ Version: kirkstone-r0
 Section: base
 Architecture: et1x000
 Maintainer: OpenPLi team
-MD5Sum: 4eac8dc335a634cd322b07977c2cd40e
-SHA256sum: b2bf8ee4bceda73898926e8a9877fff7d94459ae9ce7aee3f1fb3ac8d2c37d5d
+MD5Sum: 00296ce325d2fb159dde50b5eab0183c
+SHA256sum: a8b45010846ec7a3f32f4d53bfcf62c681590961f1887b40917c638c8c819a93
 Size: 2852
 Filename: enigma-info_kirkstone-r0_et1x000.ipk
 Source: enigma-info.bb
@@ -233,6 +233,72 @@ Description: enigma.info used by BoxInfo
 OE: enigma-info
 License: GPL-2.0-or-later
 Priority: required
+
+Package: enigma2-boxlogos-dbg
+Version: 1.0+gitr24+f802a3d-r0
+Section: devel
+Architecture: et1x000
+Maintainer: DimitarCC
+MD5Sum: 37a3e3dcf2b1aa5e6df415c0ea291519
+SHA256sum: ddcd04deb8ab27f23e6718e1b144d19f3f68c27409fc8be8e6177c1faa2557aa
+Size: 708
+Filename: enigma2-boxlogos-dbg_1.0+gitr24+f802a3d-r0_et1x000.ipk
+Source: enigma2-boxlogos.bb
+Description: enigma2-boxlogos version 1.0+gitrAUTOINC+f802a3df45-r0 - Debugging files
+OE: enigma2-boxlogos
+HomePage: https://github.com/DimitarCC/e2-boxlogos
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-boxlogos-dev
+Version: 1.0+gitr24+f802a3d-r0
+Depends: enigma2-boxlogos (= 1.0+gitr24+f802a3d-r0)
+Recommends: enigma-info-dev
+Section: devel
+Architecture: et1x000
+Maintainer: DimitarCC
+MD5Sum: 202848665ddeacc5ba5f6429e4d6ad60
+SHA256sum: a38ca8b9d9cb5eeedad27e7eeccd9c34040e1e89d2a810d824cbf076e264303d
+Size: 754
+Filename: enigma2-boxlogos-dev_1.0+gitr24+f802a3d-r0_et1x000.ipk
+Source: enigma2-boxlogos.bb
+Description: enigma2-boxlogos version 1.0+gitrAUTOINC+f802a3df45-r0 - Development files
+OE: enigma2-boxlogos
+HomePage: https://github.com/DimitarCC/e2-boxlogos
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-boxlogos-src
+Version: 1.0+gitr24+f802a3d-r0
+Section: devel
+Architecture: et1x000
+Maintainer: DimitarCC
+MD5Sum: f4b2cc1f655aa389299f2f56c5dc7824
+SHA256sum: 78f3d225b5a5de0596bfb7197511a4aff4971037b23db13a85859db1998e8cae
+Size: 1672
+Filename: enigma2-boxlogos-src_1.0+gitr24+f802a3d-r0_et1x000.ipk
+Source: enigma2-boxlogos.bb
+Description: enigma2-boxlogos version 1.0+gitrAUTOINC+f802a3df45-r0 - Source files
+OE: enigma2-boxlogos
+HomePage: https://github.com/DimitarCC/e2-boxlogos
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-boxlogos
+Version: 1.0+gitr24+f802a3d-r0
+Section: base
+Architecture: et1x000
+Maintainer: DimitarCC
+MD5Sum: 9753c076d3e180fede06783c412d33d6
+SHA256sum: da8bf9e80290fd9b1bfbfa17030de67be511ae2e0d6c8b7633bcc0ec8787dc7b
+Size: 16574
+Filename: enigma2-boxlogos_1.0+gitr24+f802a3d-r0_et1x000.ipk
+Source: enigma2-boxlogos.bb
+Description: enigma2-boxlogos version 1.0+gitrAUTOINC+f802a3df45-r0
+OE: enigma2-boxlogos
+HomePage: https://github.com/DimitarCC/e2-boxlogos
+License: GPL-2.0-or-later
+Priority: optional
 
 Package: enigma2-dbg
 Version: 3.10+git21329+7974ff9-r0
@@ -1386,21 +1452,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-src
-Version: 3.10+git21329+7974ff9-r0
-Section: devel
-Architecture: et1x000
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8f1cf29240dafa3b02c7d6757bb64ae1
-SHA256sum: 30894b9c9bf920809aa830ddeaea67199749515711a5ad1bb83eb1d396a297db
-Size: 407402
-Filename: enigma2-src_3.10+git21329+7974ff9-r0_et1x000.ipk
-Source: enigma2.bb
-Description: GUI frontend for Open Source Linux based receivers - Source files
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-staticdev
 Version: 3.10+git21329+7974ff9-r0
 Depends: enigma2-dev (= 3.10+git21329+7974ff9-r0)
@@ -1426,9 +1477,9 @@ Recommends: enigma2-plugin-skins-pli-hd, glibc-gconv-utf-16, hotplug-e2-helper, 
 Section: base
 Architecture: et1x000
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 07b201e7c1583e3c9c70f8a018b52f42
-SHA256sum: ca93743eb0b318e79c57993ed4cd97b22be9a3b6af319e269dffcc48da9b7aad
-Size: 5968580
+MD5Sum: 502bf70a17f5d498e078d81ab823a979
+SHA256sum: 5ca48d9e615b5a159f11d4ea21500929ac5710d71b235a8ec9514906761c32bf
+Size: 6344392
 Filename: enigma2_3.10+git21329+7974ff9-r0_et1x000.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
