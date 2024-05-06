@@ -129,6 +129,350 @@ HomePage: http://packages.debian.org/sid/ca-certificates
 License: GPL-2.0-or-later & MPL-2.0
 Priority: optional
 
+Package: channelsettings-enigma2-meta-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de21e824febb10589948c7db874a887b
+SHA256sum: 0ca0361a3cb029d424cee9a3db8c132d99332c3fd152ab28bdb16d644708c4e7
+Size: 684
+Filename: channelsettings-enigma2-meta-dbg_1.0-r0_all.ipk
+Source: channelsettings-enigma2-meta.bb
+Description: channelsettings-enigma2-meta version 1.0-r0 - Debugging files
+OE: channelsettings-enigma2-meta
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: channelsettings-enigma2-meta-dev
+Version: 1.0-r0
+Depends: channelsettings-enigma2-meta (= 1.0-r0)
+Recommends: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w-dev, enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w-dev, enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w-dev, enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w-dev, enigma2-plugin-settings-ciefp-e2-1sat-19e-dev, enigma2-plugin-settings-ciefp-e2-2sata-19e-13e-dev, enigma2-plugin-settings-ciefp-e2-2satb-19e-16e-dev, enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e-dev, enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e-dev, enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w-dev, enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w-dev, enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w-dev, enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w-dev, enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w-dev, enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w-dev, enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w-dev, enigma2-plugin-settings-ciefp-e2-motor-75e-34w-dev, enigma2-plugin-settings-hans-13e-19e-23e-28e-dev, enigma2-plugin-settings-hans-19e-23e-28e-dev, enigma2-plugin-settings-hans-19e-23e-basis-dev, enigma2-plugin-settings-hans-19e-23e-dev, enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-dev, enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating-dev, enigma2-plugin-settings-hans-kabelnl-dev, enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e-dev, enigma2-plugin-settings-morph883-0.8w-13e-19.2e-dev, enigma2-plugin-settings-morph883-0.8w-13e-dev, enigma2-plugin-settings-morph883-0.8w-4.8e-13e-dev, enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e-dev, enigma2-plugin-settings-morph883-13e-16e-19.2e-dev, enigma2-plugin-settings-morph883-13e-16e-dev, enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e-dev, enigma2-plugin-settings-morph883-13e-19.2e-23.5e-dev, enigma2-plugin-settings-morph883-13e-19.2e-28.2e-dev, enigma2-plugin-settings-morph883-13e-19.2e-42e-dev, enigma2-plugin-settings-morph883-13e-19.2e-dev, enigma2-plugin-settings-morph883-13e-23.5e-dev, enigma2-plugin-settings-morph883-13e-28.2e-dev, enigma2-plugin-settings-morph883-13e-42e-dev, enigma2-plugin-settings-morph883-13e-dev, enigma2-plugin-settings-morph883-30w-13e-19.2e-dev, enigma2-plugin-settings-morph883-30w-13e-dev, enigma2-plugin-settings-morph883-4.8e-13e-19.2e-dev, enigma2-plugin-settings-morph883-4.8e-13e-dev, enigma2-plugin-settings-morph883-9e-13e-19.2e-dev, enigma2-plugin-settings-morph883-9e-13e-dev, enigma2-plugin-settings-morph883-motor-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2a25dd182977da526b0e3092cc24d4fa
+SHA256sum: 626686b874c099c44ff6ad51f85188d0ec77ea8d4be40388a332bc411b58deff
+Size: 1040
+Filename: channelsettings-enigma2-meta-dev_1.0-r0_all.ipk
+Source: channelsettings-enigma2-meta.bb
+Description: channelsettings-enigma2-meta version 1.0-r0 - Development files
+OE: channelsettings-enigma2-meta
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-bouquetmakerxtream-dbg
+Version: 119+5d2b4b2-r0
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 6922d6d470f2b2161fed66bd69653587
+SHA256sum: a4461cb82140e3164bd55903813e4f2b09a4174707887aa11386b53c132aceb5
+Size: 708
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_119+5d2b4b2-r0_all.ipk
+Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
+Description: IPTV bouquet maker - Debugging files
+OE: enigma2-plugin-extensions-bouquetmakerxtream
+HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-bouquetmakerxtream-dev
+Version: 119+5d2b4b2-r0
+Depends: enigma2-plugin-extensions-bouquetmakerxtream (= 119+5d2b4b2-r0)
+Recommends: python3-dev, python3-pillow-dev, python3-requests-dev
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: ea72ff42f927bba9cedb8181871e9760
+SHA256sum: 651d14b6c3861aef842e3e769fcc0f601d7ee3789f7ee0e3064c211eff1eb57d
+Size: 774
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_119+5d2b4b2-r0_all.ipk
+Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
+Description: IPTV bouquet maker - Development files
+OE: enigma2-plugin-extensions-bouquetmakerxtream
+HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-bouquetmakerxtream
+Version: 119+5d2b4b2-r0
+Depends: python3, python3-pillow, python3-requests
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: cecb6b2118e2243b7d29226f6d2a7425
+SHA256sum: b91aef5bf997b8f28c68edc8664fe2fdbd849437c8f0bb823c26e81a2d04af62
+Size: 1163960
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_119+5d2b4b2-r0_all.ipk
+Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
+Description: IPTV bouquet maker
+OE: enigma2-plugin-extensions-bouquetmakerxtream
+HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-deps-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c38937ba8f8f22170b153f95150c8855
+SHA256sum: 7a074aa0ddfdada01c2a06b9cfbb7b48efdd330f2c79e09743f1022445629b38
+Size: 714
+Filename: enigma2-plugin-extensions-e2iplayer-deps-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer-deps.bb
+Description: Meta package for installing all dependencies for SSS' E2i Player - Debugging files
+OE: enigma2-plugin-extensions-e2iplayer-deps
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-deps-dev
+Version: 1.0-r0
+Depends: enigma2-plugin-extensions-e2iplayer-deps (= 1.0-r0)
+Recommends: python3-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 779d948a8e2b5cbb426a85fc02db9895
+SHA256sum: 43caf0ab3d1bc15af188d1b18991b557b10aa235aabc3c99662220e5a394b80c
+Size: 762
+Filename: enigma2-plugin-extensions-e2iplayer-deps-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer-deps.bb
+Description: Meta package for installing all dependencies for SSS' E2i Player - Development files
+OE: enigma2-plugin-extensions-e2iplayer-deps
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-deps
+Version: 1.0-r0
+Recommends: duktape, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, rtmpdump, uchardet, wget
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3237ebff4062062a34b6feaa66b34d05
+SHA256sum: 16b6349f42359ebd822af78dbd3cce24e28d2b822d466ab023ddbf25a93d8c72
+Size: 734
+Filename: enigma2-plugin-extensions-e2iplayer-deps_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer-deps.bb
+Description: Meta package for installing all dependencies for SSS' E2i Player
+OE: enigma2-plugin-extensions-e2iplayer-deps
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgimport-rytec
+Version: 20230617-r0
+Replaces: enigma2-plugin-extensions-xmltvimport-rytec
+Conflicts: enigma2-plugin-extensions-xmltvimport-rytec
+Section: base
+Architecture: all
+Maintainer: Rytec forum @ forums.openpli.org
+MD5Sum: 0dd29c77accb942840d6e24feabcd05e
+SHA256sum: 27570d3a574d6494df78ff66056bfa24b3b33ae67093adc4e70c9c732be2a2b0
+Size: 3604
+Filename: enigma2-plugin-extensions-epgimport-rytec_20230617-r0_all.ipk
+Source: enigma2-plugin-extensions-epgimport-rytec.bb
+Description: enigma2-plugin-extensions-epgimport-rytec version 20230617-r0
+OE: enigma2-plugin-extensions-epgimport-rytec
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-fritzcall-dbg
+Version: git41+e894ae4-r0
+Section: devel
+Architecture: all
+Maintainer: DrMichael
+MD5Sum: 7132e27dc356c02d7e049bd959eddeb7
+SHA256sum: 9a6339e6d36bb73664c044644795f4ea44706f8520aaa7fc4de32f7017e5c5b8
+Size: 706
+Filename: enigma2-plugin-extensions-fritzcall-dbg_git41+e894ae4-r0_all.ipk
+Source: enigma2-plugin-extensions-fritzcall.bb
+Description: enigma2-plugin-extensions-fritzcall version gitAUTOINC+e894ae40d9-r0 - Debugging files
+OE: enigma2-plugin-extensions-fritzcall
+License: CC-BY-NC-SA-3.0
+Priority: optional
+
+Package: enigma2-plugin-extensions-fritzcall-dev
+Version: git41+e894ae4-r0
+Depends: enigma2-plugin-extensions-fritzcall (= git41+e894ae4-r0)
+Recommends: python3-core-dev, python3-dev, python3-html-dev, python3-json-dev, python3-requests-dev, python3-six-dev, python3-twisted-web-dev
+Section: devel
+Architecture: all
+Maintainer: DrMichael
+MD5Sum: e93ac77f1517cdded8d352e9106b2ff2
+SHA256sum: c78582eca040c8cb4e6c609e57408257efff05edda84423ec60b03245a4770b0
+Size: 792
+Filename: enigma2-plugin-extensions-fritzcall-dev_git41+e894ae4-r0_all.ipk
+Source: enigma2-plugin-extensions-fritzcall.bb
+Description: enigma2-plugin-extensions-fritzcall version gitAUTOINC+e894ae40d9-r0 - Development files
+OE: enigma2-plugin-extensions-fritzcall
+License: CC-BY-NC-SA-3.0
+Priority: optional
+
+Package: enigma2-plugin-extensions-fritzcall-src
+Version: git41+e894ae4-r0
+Section: devel
+Architecture: all
+Maintainer: DrMichael
+MD5Sum: 5b65aa9b06c661f6454bcb3f2913940d
+SHA256sum: e6f353d8dec8b24d2196b20727473a35c9f7d7f018231195691ed180ca0b140c
+Size: 57590
+Filename: enigma2-plugin-extensions-fritzcall-src_git41+e894ae4-r0_all.ipk
+Source: enigma2-plugin-extensions-fritzcall.bb
+Description: enigma2-plugin-extensions-fritzcall version gitAUTOINC+e894ae40d9-r0 - Source files
+OE: enigma2-plugin-extensions-fritzcall
+License: CC-BY-NC-SA-3.0
+Priority: optional
+
+Package: enigma2-plugin-extensions-fritzcall
+Version: git41+e894ae4-r0
+Depends: python3-core, python3-html, python3-json, python3-requests, python3-six, python3-twisted-web
+Section: base
+Architecture: all
+Maintainer: DrMichael
+MD5Sum: e9d6f12e3d13b0d6ec8bde04a34c1efc
+SHA256sum: 8ad6750af45ffa29ab68a4bc4327c0a7eeadd77c8e2c78347503ea36ba33a9d5
+Size: 313078
+Filename: enigma2-plugin-extensions-fritzcall_git41+e894ae4-r0_all.ipk
+Source: enigma2-plugin-extensions-fritzcall.bb
+Description: enigma2-plugin-extensions-fritzcall version gitAUTOINC+e894ae40d9-r0
+OE: enigma2-plugin-extensions-fritzcall
+License: CC-BY-NC-SA-3.0
+Priority: optional
+
+Package: enigma2-plugin-extensions-jedimakerxtream-dbg
+Version: git173+5d2218a-r0
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: b62eccec2412a1cd28a9c54727a6236f
+SHA256sum: f3f5225eda474ca54e791696d454d7b9e4bef760dcab191150f80dfe733321db
+Size: 744
+Filename: enigma2-plugin-extensions-jedimakerxtream-dbg_git173+5d2218a-r0_all.ipk
+Source: enigma2-plugin-extensions-jedimakerxtream.bb
+Description: enigma2-plugin-extensions-jedimakerxtream version gitAUTOINC+5d2218ae6f-r0 - Debugging files
+OE: enigma2-plugin-extensions-jedimakerxtream
+HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-jedimakerxtream-dev
+Version: git173+5d2218a-r0
+Depends: enigma2-plugin-extensions-jedimakerxtream (= git173+5d2218a-r0)
+Recommends: python3-dev
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 54da40981c4ee2d591e83732b34d746d
+SHA256sum: f77f041837918a03fb2a304983b15b5c1103a57046811a7b86ef14568c3bae22
+Size: 792
+Filename: enigma2-plugin-extensions-jedimakerxtream-dev_git173+5d2218a-r0_all.ipk
+Source: enigma2-plugin-extensions-jedimakerxtream.bb
+Description: enigma2-plugin-extensions-jedimakerxtream version gitAUTOINC+5d2218ae6f-r0 - Development files
+OE: enigma2-plugin-extensions-jedimakerxtream
+HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-jedimakerxtream-src
+Version: git173+5d2218a-r0
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 87c78ba99db336c762f74be81343052a
+SHA256sum: 136261d64fe47bb837b292176abfbfb99118c7633d0ec1a2d85c562395b053cb
+Size: 30744
+Filename: enigma2-plugin-extensions-jedimakerxtream-src_git173+5d2218a-r0_all.ipk
+Source: enigma2-plugin-extensions-jedimakerxtream.bb
+Description: enigma2-plugin-extensions-jedimakerxtream version gitAUTOINC+5d2218ae6f-r0 - Source files
+OE: enigma2-plugin-extensions-jedimakerxtream
+HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-jedimakerxtream
+Version: git173+5d2218a-r0
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 8da19c87ef0684a7dc1f85f0788ec144
+SHA256sum: 91ab7d6346e5e47a1c277fca28cf82b8fae5233c4fc3809dc1e2c776331f30c7
+Size: 2780290
+Filename: enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a-r0_all.ipk
+Source: enigma2-plugin-extensions-jedimakerxtream.bb
+Description: enigma2-plugin-extensions-jedimakerxtream version gitAUTOINC+5d2218ae6f-r0
+OE: enigma2-plugin-extensions-jedimakerxtream
+HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-serienrecorder-dbg
+Version: 1+git589+21a040d-r1
+Section: devel
+Architecture: all
+Maintainer: einfall, w22754, egn and MacDisein
+MD5Sum: 2c3a75b54594a4e1764a25dd9dba615e
+SHA256sum: c765e960601aea8c8e597c739431014923a5b78226adeef8f864734b6a0ff5bd
+Size: 758
+Filename: enigma2-plugin-extensions-serienrecorder-dbg_1+git589+21a040d-r1_all.ipk
+Source: enigma2-plugin-extensions-serienrecorder.bb
+Description: Enigma2 Serien Recorder - Debugging files
+OE: enigma2-plugin-extensions-serienrecorder
+HomePage: https://github.com/einfall/serienrecorder
+License: PD
+Priority: optional
+
+Package: enigma2-plugin-extensions-serienrecorder-dev
+Version: 1+git589+21a040d-r1
+Depends: enigma2-plugin-extensions-serienrecorder (= 1+git589+21a040d-r1)
+Recommends: python3-core-dev, python3-dev, python3-email-dev, python3-json-dev, python3-requests-dev, python3-sqlite3-dev, python3-xmlrpc-dev
+Section: devel
+Architecture: all
+Maintainer: einfall, w22754, egn and MacDisein
+MD5Sum: d5e38c8c57185b19e3154ff151933b11
+SHA256sum: e91cd6b2406ca5938a294933578e8dbdc908cc960106a445e0409d2f681b6a7e
+Size: 848
+Filename: enigma2-plugin-extensions-serienrecorder-dev_1+git589+21a040d-r1_all.ipk
+Source: enigma2-plugin-extensions-serienrecorder.bb
+Description: Enigma2 Serien Recorder - Development files
+OE: enigma2-plugin-extensions-serienrecorder
+HomePage: https://github.com/einfall/serienrecorder
+License: PD
+Priority: optional
+
+Package: enigma2-plugin-extensions-serienrecorder-src
+Version: 1+git589+21a040d-r1
+Section: devel
+Architecture: all
+Maintainer: einfall, w22754, egn and MacDisein
+MD5Sum: d87dcfb7d6bdc37a06803b63fc8f31b5
+SHA256sum: 80fac5095dfe8bd994b514ed515e2b716006e0867d9adc6745cce1c97d917e63
+Size: 153588
+Filename: enigma2-plugin-extensions-serienrecorder-src_1+git589+21a040d-r1_all.ipk
+Source: enigma2-plugin-extensions-serienrecorder.bb
+Description: Enigma2 Serien Recorder - Source files
+OE: enigma2-plugin-extensions-serienrecorder
+HomePage: https://github.com/einfall/serienrecorder
+License: PD
+Priority: optional
+
+Package: enigma2-plugin-extensions-serienrecorder
+Version: 1+git589+21a040d-r1
+Depends: python3-core, python3-email, python3-json, python3-requests, python3-sqlite3, python3-xmlrpc
+Section: extra
+Architecture: all
+Maintainer: einfall, w22754, egn and MacDisein
+MD5Sum: 45b59fd19e41c8eca872c85d8c7b18d1
+SHA256sum: a182a78002823eadd180c76d88c14335cac42f668d7009f9ef642317112eee96
+Size: 574342
+Filename: enigma2-plugin-extensions-serienrecorder_1+git589+21a040d-r1_all.ipk
+Source: enigma2-plugin-extensions-serienrecorder.bb
+Description: Enigma2 Serien Recorder
+OE: enigma2-plugin-extensions-serienrecorder
+HomePage: https://github.com/einfall/serienrecorder
+License: PD
+Priority: optional
+
 Package: enigma2-plugin-extensions-timeseekbar-dbg
 Version: 1.1+git3+633af42-r0
 Section: devel
@@ -228,48 +572,2374 @@ HomePage: http://gisclub.tv, http://giclub.tv
 License: PD
 Priority: required
 
+Package: enigma2-plugin-extensions-xstreamity-dbg
+Version: 490+323f62d-r0
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 606dbebff0439c8e1928d81b56fe4535
+SHA256sum: 2d25df0a645cbb07eb34919db3f54b11966a6e6d5fae6ff79d53075653b22990
+Size: 712
+Filename: enigma2-plugin-extensions-xstreamity-dbg_490+323f62d-r0_all.ipk
+Source: enigma2-plugin-extensions-xstreamity.bb
+Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
+OE: enigma2-plugin-extensions-xstreamity
+HomePage: https://www.linuxsat-support.com
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-xstreamity-dev
+Version: 490+323f62d-r0
+Depends: enigma2-plugin-extensions-xstreamity (= 490+323f62d-r0)
+Recommends: python3-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 80a7e492808730517368b35acc21fa13
+SHA256sum: 653660ebc2dbc3747127bd9dbd5a80be5aa9f1880fe9f40172b17fd4d9aa47c3
+Size: 794
+Filename: enigma2-plugin-extensions-xstreamity-dev_490+323f62d-r0_all.ipk
+Source: enigma2-plugin-extensions-xstreamity.bb
+Description: IPTV Xtream Codes playlists player by KiddaC - Development files
+OE: enigma2-plugin-extensions-xstreamity
+HomePage: https://www.linuxsat-support.com
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-xstreamity-src
+Version: 490+323f62d-r0
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: d14c966470a729d97fecb89cd4afb192
+SHA256sum: 3b6885c4b0e54af2d81752a01be4b7c006369a30a680a1eeb70e1ccf0e240ed6
+Size: 58374
+Filename: enigma2-plugin-extensions-xstreamity-src_490+323f62d-r0_all.ipk
+Source: enigma2-plugin-extensions-xstreamity.bb
+Description: IPTV Xtream Codes playlists player by KiddaC - Source files
+OE: enigma2-plugin-extensions-xstreamity
+HomePage: https://www.linuxsat-support.com
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-xstreamity
+Version: 490+323f62d-r0
+Depends: python3, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: b2023275440d083afedf0afe61fa0dcb
+SHA256sum: b9ce1529c2c7dbcd481e31e9fd03439e4321d7b3a9fa3b6ab4c2c9cf943f9ac1
+Size: 4138372
+Filename: enigma2-plugin-extensions-xstreamity_490+323f62d-r0_all.ipk
+Source: enigma2-plugin-extensions-xstreamity.bb
+Description: IPTV Xtream Codes playlists player by KiddaC
+OE: enigma2-plugin-extensions-xstreamity
+HomePage: https://www.linuxsat-support.com
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4362e716e7296e190b6d77a4043b7953
+SHA256sum: 48f6e250d57447201818d1c7543bac2eee1491ac9a039580eed81ca232531439
+Size: 762
+Filename: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2d24c5ef60e7318b2d4d15d7ec203330
+SHA256sum: a5c4261f85df7e782132d6d79cf396871673d7bfa56f284df232b60883773ce5
+Size: 806
+Filename: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 47b5f92db7657b966b5095202a586f26
+SHA256sum: 8c1932d3480c30260ae9bdb48d2e2f6dcfd1e2d0b67c76afa20b422cc3d91806
+Size: 502998
+Filename: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-10sat-39e-28e-23e-19e-16e-13e-9e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e8ec220e6b15f2baaf200b9422eda37a
+SHA256sum: 65aa140efdd4c6ac98a6b8737e4c38385d70de59400dedbcee98bc60e17d29eb
+Size: 776
+Filename: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w.bb
+Description: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6db101db4c95a117be14a38e36841c76
+SHA256sum: 5f17beb8311bf6536cf6608cf07595145022f7a97631589e771d317a0934055f
+Size: 820
+Filename: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w.bb
+Description: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 198fe85722ee718d2fe02a7d6d299c66
+SHA256sum: 5109bbd6e23357557e6df73c3d2b270f29482964761df1d565b83e5a04a11768
+Size: 521784
+Filename: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w.bb
+Description: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-13sat-42e-39e-28e-23e-19e-16e-13e-9e-7e-4.8e-1.9e-0.8w-5w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2c94acdc2ae4aa601e0ecf0098ac25be
+SHA256sum: 9f60b07440b2cdff01dad9937d8cad779039e9d71446375cee7c67876097e380
+Size: 792
+Filename: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w.bb
+Description: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e2fa36d1ac56929abfa24a0743bf97a2
+SHA256sum: 06867ae15553442df0bb3436deee2ec3ca286746a15c3270e7641899b3a81bc1
+Size: 836
+Filename: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w.bb
+Description: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aa79f3d0fb21b5955f424bf4a3c84a59
+SHA256sum: ae2818ef5d63744e28a390bf1b02fc4e26a992607af287bbe99b419846079322
+Size: 530722
+Filename: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w.bb
+Description: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-16sat-42e-39e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ec72f71faa4419bf8bda53a1165a92b0
+SHA256sum: 6618cf67d9478ff11031987f5446d8c58483c4e37cf6139f5f24967d358580c4
+Size: 798
+Filename: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w.bb
+Description: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a5104b5e5aa99f2ed0ba5261820e3890
+SHA256sum: 43a9fedf5dd809ac068454e598b0dbab2d4a297f38da7a9fdd1b4c4c58ae7f4d
+Size: 840
+Filename: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w.bb
+Description: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d9b536a9b74b1d96f4ec9a0296358a63
+SHA256sum: ef638d737413c0b638e0ae3d5194bab59376c8526b17aab3ebba1d1eda024896
+Size: 534680
+Filename: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w.bb
+Description: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-18sat-42e-39e-36e-33e-28e-26e-23e-19e-16e-13e-10e-9e-7e-4.8e-1.9e-0.8w-4w-5w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-1sat-19e-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7c7aaa4fa068a4f563e200b3a167c86a
+SHA256sum: 166acf0dcc629d603bb3c2dea0d895e40f8a541981364945b95baaeab0769ac4
+Size: 714
+Filename: enigma2-plugin-settings-ciefp-e2-1sat-19e-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-1sat-19e.bb
+Description: enigma2-plugin-settings-ciefp-e2-1sat-19e version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-1sat-19e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-1sat-19e-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-1sat-19e (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f7090223f6b3817f7af248bcd90a6b57
+SHA256sum: 46443e8c8261a67e1e3f8996dadc11edcbf42bf4030d2a57b7aa7c61bcc2d160
+Size: 756
+Filename: enigma2-plugin-settings-ciefp-e2-1sat-19e-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-1sat-19e.bb
+Description: enigma2-plugin-settings-ciefp-e2-1sat-19e version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-1sat-19e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-1sat-19e
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 57f116bb62b2ad73c73bde333f015ea1
+SHA256sum: cd8e196954b86d5cc0d2495d8d284ecb2b11f2abe0f5037899994c9f1afeef40
+Size: 404548
+Filename: enigma2-plugin-settings-ciefp-e2-1sat-19e_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-1sat-19e.bb
+Description: enigma2-plugin-settings-ciefp-e2-1sat-19e version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-1sat-19e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 88e80a548263b3d774662fe7aadcadc2
+SHA256sum: e2d85114af89f8b081afbb1abf7a7202dde11ff81874236829fa38dcc9667739
+Size: 722
+Filename: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e.bb
+Description: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 48e707a33fbf312db808db3ce470414c
+SHA256sum: 8f57bbf821597a47aebd534771fe87de54c181c2d4e33f38edfd1d7133b5ba44
+Size: 764
+Filename: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e.bb
+Description: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 214fc89a5457185fcaceda8c9bfcc42d
+SHA256sum: 5e98e4638720aedc7ff280db6ec4eb17229b4d9a2a8578c2871ff4c865fcdf2e
+Size: 426444
+Filename: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e.bb
+Description: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-2sata-19e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9b8c73c0c469b518f2db5be8327832b8
+SHA256sum: 550926d6feb5c29030b923b29f990a3a8c97e4affc1d5f77ca535b3375e896ca
+Size: 722
+Filename: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e.bb
+Description: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ac953a0906a32e93d7e572383b81df3c
+SHA256sum: 888823c159612e020ee8ac777b3b464d22edc464c7d0a3e27240433820604c4f
+Size: 764
+Filename: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e.bb
+Description: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 92c1fbcc4c621b921793392449df595b
+SHA256sum: 125da71a2211908106d533f0e68ab5759faccdd8d79cb449d410fe78c04c1d21
+Size: 417272
+Filename: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e.bb
+Description: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-2satb-19e-16e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 99e4063a05f1e29b0f8c06a446529e23
+SHA256sum: 103879c2111c6b36b6352af1a77abe7552f5a31926b6a8144b1ca4e7319233fe
+Size: 724
+Filename: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e.bb
+Description: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4039e9653ea436077b3810a3eae79c43
+SHA256sum: 67e2e2000be8739b5916cec1e6cada723bb8df94dfac8395a531995986ed5bae
+Size: 766
+Filename: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e.bb
+Description: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b0402469127350ec6028032dab0ec5e3
+SHA256sum: 5b7619ee3474f37858dac9316b7f1639291635fda3e70e8e10d352ee81341a60
+Size: 420930
+Filename: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e.bb
+Description: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-3sata-9e-10e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 92ac3ddae7236dc0be4a9496582b7c2f
+SHA256sum: 4c2772aa5948ee16ab1aecc7294ecfc6f47e6c07dc19d73c9d2867692a69d2cf
+Size: 726
+Filename: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e.bb
+Description: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 66b4d75365c17d4530b16b2b11c365ea
+SHA256sum: 8711293bebfde7675539da9ef56bdcf7cd27581d362f4b29a94fb114746fc1f1
+Size: 768
+Filename: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e.bb
+Description: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 17104fb832eed8f5a9866db1835747df
+SHA256sum: a6ef6425d06f58f2f27acf0885f2dc77f4971d90cacce84a896a344b02e8ab73
+Size: 439086
+Filename: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e.bb
+Description: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-3satb-19e-16e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 08b8c3932d7b6a441fa310a6367ebef3
+SHA256sum: 37b6deba5847aa10376e8dc932cd30ce3c7a2ca2ac7f55dfbf431ce9f739cc3d
+Size: 734
+Filename: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w.bb
+Description: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4d1ed58c34f1007335ce92651a7dac5b
+SHA256sum: f3d33e8860e8346e62def76c4b8196e1ba55be38c971f21d1fb3da99d6c66e1d
+Size: 776
+Filename: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w.bb
+Description: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 472012af6d9cfe3ccbb366c7b08a1760
+SHA256sum: 8584473288fc270362f19f5d526c34cec1272a10bbc509a33c0dab5ba3457711
+Size: 441930
+Filename: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w.bb
+Description: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-4sata-28e-19e-13e-30w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c410639600b7d584787d72a88e4adfdb
+SHA256sum: dc15b025695bdffcf85ab2c43837b4806286c48b180c5d4ce3de359f5c92df8e
+Size: 734
+Filename: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7428f28f3cb6b31104ff6bdc81e9e88f
+SHA256sum: b5ec353e8bcad6987e4f49c79c1f34e078b56150d220704ba5e91193f930913a
+Size: 778
+Filename: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 31b46526f83cc923716a0b562734a69a
+SHA256sum: f2ac4098b93ae23b0c917cd22cd7e0ba3f3c0583e4f478e228747708b8fd33d0
+Size: 457554
+Filename: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-4satb-19e-16e-13e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 87cd9fbda3e9af9dc85c012d1b4d366d
+SHA256sum: 841daf2eaee3c35fc4136ecb8a2207841d944189ec9a44d822e67b74a51b9121
+Size: 738
+Filename: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e08db59ff64b737569ee81f25f4b4a6
+SHA256sum: 75c78e5b41ca32fba643554ee3fd5bc7eb8e575fd1df54b9b74d3db55b429bb9
+Size: 782
+Filename: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e18ca91013f096e2e4d030e745d3908a
+SHA256sum: 9cbf2d5fa4595f5895eed54c67573a7542103f5a190443b30f7675629ae6827f
+Size: 460374
+Filename: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-5sat-19e-16e-13e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b252adc34a6f7412df0e0f7aaaef5cfd
+SHA256sum: 99d7a385059b99a8d05e35eeda27873c966301ecfb1af45f9c6ee32b4af23730
+Size: 742
+Filename: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 44f6b2c1d3749ad1f59c905fa2c7e0d1
+SHA256sum: 8e32e317067c6d5c71d127df0a9fa035a62332279faf3ba16e2316aec045ab7a
+Size: 786
+Filename: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0b59911b34bb2cf242599bc1eda5ec66
+SHA256sum: 03701f513bd7daa8b94881c6a9bcf8e2be99c358c82332f96fe4d58b5c37e27d
+Size: 470554
+Filename: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-6sat-23e-19e-16e-13e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a8cc14a1225058d0ff66da589c4b2f49
+SHA256sum: 7dfc8ab70c4f4633fe6de4b9f7acf294689beadcfd70b4380b1d7d2d9e06f2b9
+Size: 748
+Filename: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 638e41d811841ad4f7eb827c1655c1c4
+SHA256sum: 6e4092f3e73b7b9f6b359731b5d62ff6dc341d1e34138ceb4298fedbbd0c83b9
+Size: 790
+Filename: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 310a817a75b147515ad95ac2fe6fe4ee
+SHA256sum: 7f84e0f698e3eb6437e74ecb027789abbbb7663c611b4647e8568dbd08082878
+Size: 476018
+Filename: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-7sat-23e-19e-16e-13e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf06540121e0949ac6a870aaeedad320
+SHA256sum: 440138cf9aa04b8bd01ffd8d04ec61da819fbb11e3fe11b46967033949f29cc3
+Size: 754
+Filename: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df917a7d0beb9ab6bf78ab977c0e24b3
+SHA256sum: a27d20a65ed1acdbd697abc2bff9db328e60e28658dc4c4834d7b7529893c973
+Size: 798
+Filename: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ce601a457b25ea21f3db9ec163bd32b9
+SHA256sum: 05b9344d31043fe1a8f6e12e8af83182e9481f878e09d87f184e07879bbba6d7
+Size: 482762
+Filename: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-8sat-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 778b8011fb4e969d2c2994d3d14692de
+SHA256sum: 76fa6a0db2f32601af3acb69e54f24d5f3213eecdde2aa693a938a456e745150
+Size: 758
+Filename: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d599afd36930760b0cf4ca995248a76
+SHA256sum: d51f4ab2db3e26a7ed4c98ec33249df6df9bd5f401caeca4e1bb9f98e63270fb
+Size: 802
+Filename: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 11ae469cc1623bce37d26652ff5e49d0
+SHA256sum: cde7175fc87ee56f05b226eb59d453472f35f96007247e4cee9f914ed3931d4f
+Size: 496298
+Filename: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w.bb
+Description: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-9sat-39e-28e-23e-19e-16e-13e-4.8e-1.9e-0.8w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-motor-75e-34w-dbg
+Version: 1.0+git287+e2c5266-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e82002c1b092f84b9036ce1abc34778b
+SHA256sum: 756c06f9c9b874974432c7eda0b71269ec0df0baa12daa5bc3e81f0815964143
+Size: 724
+Filename: enigma2-plugin-settings-ciefp-e2-motor-75e-34w-dbg_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-motor-75e-34w.bb
+Description: enigma2-plugin-settings-ciefp-e2-motor-75e-34w version 1.0+gitAUTOINC+e2c5266a07-r0 - Debugging files
+OE: enigma2-plugin-settings-ciefp-e2-motor-75e-34w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-motor-75e-34w-dev
+Version: 1.0+git287+e2c5266-r0
+Depends: enigma2-plugin-settings-ciefp-e2-motor-75e-34w (= 1.0+git287+e2c5266-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cee524100871fbe14788e418ae47d637
+SHA256sum: dd0305b021c6323b2d7a35001cb6d1b2e002b6a2334f5112003727d2a06e5e9a
+Size: 766
+Filename: enigma2-plugin-settings-ciefp-e2-motor-75e-34w-dev_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-motor-75e-34w.bb
+Description: enigma2-plugin-settings-ciefp-e2-motor-75e-34w version 1.0+gitAUTOINC+e2c5266a07-r0 - Development files
+OE: enigma2-plugin-settings-ciefp-e2-motor-75e-34w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ciefp-e2-motor-75e-34w
+Version: 1.0+git287+e2c5266-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c51aeb099a55c898aee4761d6a28c2b7
+SHA256sum: c07e2cd2c291eb0e6f1bb92fde6f2fcd6823bf218c6713c94a62481230cfcb54
+Size: 538208
+Filename: enigma2-plugin-settings-ciefp-e2-motor-75e-34w_1.0+git287+e2c5266-r0_all.ipk
+Source: enigma2-plugin-settings-ciefp-e2-motor-75e-34w.bb
+Description: enigma2-plugin-settings-ciefp-e2-motor-75e-34w version 1.0+gitAUTOINC+e2c5266a07-r0
+OE: enigma2-plugin-settings-ciefp-e2-motor-75e-34w
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-13e-19e-23e-28e-dbg
+Version: 1.0+git44+2085265-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1e0e9f18d8e99480ffdf36cb4e82218
+SHA256sum: d5e8e5d2820d269c39822ffd7776f79a001a971136fb0467cd093faaa72ff738
+Size: 726
+Filename: enigma2-plugin-settings-hans-13e-19e-23e-28e-dbg_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-13e-19e-23e-28e version 1.0+gitAUTOINC+2085265569-r0 - Debugging files
+OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-13e-19e-23e-28e-dev
+Version: 1.0+git44+2085265-r0
+Depends: enigma2-plugin-settings-hans-13e-19e-23e-28e (= 1.0+git44+2085265-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ebafc9344b7952ed85f49968b7ac8d4b
+SHA256sum: 723ff3bddf7d568212154a1a0900770c3b54ccfee37862b40a85ff64585ed451
+Size: 766
+Filename: enigma2-plugin-settings-hans-13e-19e-23e-28e-dev_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-13e-19e-23e-28e version 1.0+gitAUTOINC+2085265569-r0 - Development files
+OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-13e-19e-23e-28e
+Version: 1.0+git44+2085265-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ec50e3933a82696d2ccaafd0c5e6c102
+SHA256sum: a390be6d1842616421cff8118f56f51661fa93ab89e872e3c813f3294663bc5f
+Size: 764358
+Filename: enigma2-plugin-settings-hans-13e-19e-23e-28e_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-13e-19e-23e-28e version 1.0+gitAUTOINC+2085265569-r0
+OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-28e-dbg
+Version: 1.0+git44+2085265-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 93028c518a5e07a328df2e1ae7df3ed2
+SHA256sum: 3d3777a4937b3f807c5fabbae770b34f601c7bf81a23e64688733718021548a8
+Size: 718
+Filename: enigma2-plugin-settings-hans-19e-23e-28e-dbg_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-19e-23e-28e version 1.0+gitAUTOINC+2085265569-r0 - Debugging files
+OE: enigma2-plugin-settings-hans-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-28e-dev
+Version: 1.0+git44+2085265-r0
+Depends: enigma2-plugin-settings-hans-19e-23e-28e (= 1.0+git44+2085265-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5e93e54b72d2469a799d164b14a4faa8
+SHA256sum: f1eeaba66a8774f94136c133b0b11d6960329531c1bb9c46f2e5d8854fc59deb
+Size: 762
+Filename: enigma2-plugin-settings-hans-19e-23e-28e-dev_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-19e-23e-28e version 1.0+gitAUTOINC+2085265569-r0 - Development files
+OE: enigma2-plugin-settings-hans-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-28e
+Version: 1.0+git44+2085265-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8f7ddffb144984ce29f8dde614cf1c4f
+SHA256sum: c29e7ea034753c6585873344f8e38e2d0b3eef188c36e975ecdb9b13adf8df8b
+Size: 742656
+Filename: enigma2-plugin-settings-hans-19e-23e-28e_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-19e-23e-28e version 1.0+gitAUTOINC+2085265569-r0
+OE: enigma2-plugin-settings-hans-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-basis-dbg
+Version: 1.0+git44+2085265-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 512071801178ee3546e166c7924a4090
+SHA256sum: 4e5569e2160913c57e2578ab0d55ebe91d1c15df68446c706b194602a66dde1a
+Size: 722
+Filename: enigma2-plugin-settings-hans-19e-23e-basis-dbg_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-basis.bb
+Description: enigma2-plugin-settings-hans-19e-23e-basis version 1.0+gitAUTOINC+2085265569-r0 - Debugging files
+OE: enigma2-plugin-settings-hans-19e-23e-basis
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-basis-dev
+Version: 1.0+git44+2085265-r0
+Depends: enigma2-plugin-settings-hans-19e-23e-basis (= 1.0+git44+2085265-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7e5e018cd5ef57bddf228067fc69fda0
+SHA256sum: 2ae3655827b646b53a6347080860028ff1abb29ea1d18ddaab36e7ca53653eef
+Size: 762
+Filename: enigma2-plugin-settings-hans-19e-23e-basis-dev_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-basis.bb
+Description: enigma2-plugin-settings-hans-19e-23e-basis version 1.0+gitAUTOINC+2085265569-r0 - Development files
+OE: enigma2-plugin-settings-hans-19e-23e-basis
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-basis
+Version: 1.0+git44+2085265-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 87e955a6b221ef5ecacaa5f9adbc70fc
+SHA256sum: b7859b4535a84be54b945112a25a16977ba0f6271dc511d84462abfb9f5f7a21
+Size: 29528
+Filename: enigma2-plugin-settings-hans-19e-23e-basis_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-basis.bb
+Description: enigma2-plugin-settings-hans-19e-23e-basis version 1.0+gitAUTOINC+2085265569-r0
+OE: enigma2-plugin-settings-hans-19e-23e-basis
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-dbg
+Version: 1.0+git44+2085265-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 01f9007b173d2c5cfffcd8a6e42a64b0
+SHA256sum: e6f5784f12c8ad6465efe6526832cc6ec3ce4f0cd1fcf53072e659f59572eb45
+Size: 714
+Filename: enigma2-plugin-settings-hans-19e-23e-dbg_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e.bb
+Description: enigma2-plugin-settings-hans-19e-23e version 1.0+gitAUTOINC+2085265569-r0 - Debugging files
+OE: enigma2-plugin-settings-hans-19e-23e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-dev
+Version: 1.0+git44+2085265-r0
+Depends: enigma2-plugin-settings-hans-19e-23e (= 1.0+git44+2085265-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 61ed4cf7c3e83c2c98efff26c1af34fd
+SHA256sum: 74ee1d64add23cd8a9f31ea3fa379186fcc78d2ab347592d74d26609d617a80f
+Size: 756
+Filename: enigma2-plugin-settings-hans-19e-23e-dev_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e.bb
+Description: enigma2-plugin-settings-hans-19e-23e version 1.0+gitAUTOINC+2085265569-r0 - Development files
+OE: enigma2-plugin-settings-hans-19e-23e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e
+Version: 1.0+git44+2085265-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3f21fced87b2e30d6fe87a0e3b5af32e
+SHA256sum: cf15c4e1102dcf2a3e4e33018461e14c21e995789366f7ddd7c6895d6ce1d99a
+Size: 733262
+Filename: enigma2-plugin-settings-hans-19e-23e_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e.bb
+Description: enigma2-plugin-settings-hans-19e-23e version 1.0+gitAUTOINC+2085265569-r0
+OE: enigma2-plugin-settings-hans-19e-23e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-dbg
+Version: 1.0+git44+2085265-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2cad318a0021819538bd844f853b3cb8
+SHA256sum: 7727a22c192540d72fa86d0cad03de76396414e1c8787708b34b92d504271ee2
+Size: 728
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-dbg_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e version 1.0+gitAUTOINC+2085265569-r0 - Debugging files
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-dev
+Version: 1.0+git44+2085265-r0
+Depends: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e (= 1.0+git44+2085265-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b0ab43e946ccd46bcd30914ff3e0f90
+SHA256sum: d6c78043cfc11e5256b89e871b5d12abb95515343f7ea394e846c06f9a8ca943
+Size: 770
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-dev_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e version 1.0+gitAUTOINC+2085265569-r0 - Development files
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating-dbg
+Version: 1.0+git44+2085265-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e651695426bb07b1124850188b48afeb
+SHA256sum: ed6ad7bd6df41a57234cb292758f28d624242e11c2da5d97ed028f43b0d6b8ce
+Size: 734
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating-dbg_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating version 1.0+gitAUTOINC+2085265569-r0 - Debugging files
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating-dev
+Version: 1.0+git44+2085265-r0
+Depends: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating (= 1.0+git44+2085265-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2eda648b67e6fef378107023c5ff81bd
+SHA256sum: e6caa34066dd32d1647d75245a4ad1a433ce1d21d12630b9524cc54001ca567c
+Size: 778
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating-dev_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating version 1.0+gitAUTOINC+2085265569-r0 - Development files
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+Version: 1.0+git44+2085265-r0
+Depends: xz
+Provides: e2_hanssettings_13e_19e_23e_28e_AND_rotating
+Replaces: e2_hanssettings_13e_19e_23e_28e_AND_rotating
+Conflicts: e2_hanssettings_13e_19e_23e_28e_AND_rotating
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 147be1f0d7c24471726b91fa59c90a36
+SHA256sum: 4652be1941792413719c977df5b7719afad295f1898ac091b5986538d017b423
+Size: 977214
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating version 1.0+gitAUTOINC+2085265569-r0
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+Version: 1.0+git44+2085265-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a68b5ff7560eeaf2123c097f187012e4
+SHA256sum: a302402d0e167484fde0c4c8817fa87b15e7924c9850be42125f9d7f3d836afd
+Size: 773470
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e version 1.0+gitAUTOINC+2085265569-r0
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-kabelnl-dbg
+Version: 1.0+git44+2085265-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3ec69d04e456071957aacdf1ce42f72a
+SHA256sum: 449ad71888a5818bdc4d8568f66354a76386dc4ce81252bf7c1886b0d8895018
+Size: 714
+Filename: enigma2-plugin-settings-hans-kabelnl-dbg_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-kabelnl.bb
+Description: enigma2-plugin-settings-hans-kabelnl version 1.0+gitAUTOINC+2085265569-r0 - Debugging files
+OE: enigma2-plugin-settings-hans-kabelnl
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-kabelnl-dev
+Version: 1.0+git44+2085265-r0
+Depends: enigma2-plugin-settings-hans-kabelnl (= 1.0+git44+2085265-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 993856d10f7ad510246ad9a039f63fcb
+SHA256sum: 26636c85655a0bc946761f331961ea57754b6c417a6278d99c251d85eeab5b06
+Size: 756
+Filename: enigma2-plugin-settings-hans-kabelnl-dev_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-kabelnl.bb
+Description: enigma2-plugin-settings-hans-kabelnl version 1.0+gitAUTOINC+2085265569-r0 - Development files
+OE: enigma2-plugin-settings-hans-kabelnl
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-kabelnl
+Version: 1.0+git44+2085265-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5b5616eb1a79857c1a3188099e0e57a5
+SHA256sum: 73fb82f7cdae73a0ba855f896caa9999a4c4a4b53408cb39c255b913fe55d05a
+Size: 706326
+Filename: enigma2-plugin-settings-hans-kabelnl_1.0+git44+2085265-r0_all.ipk
+Source: enigma2-plugin-settings-hans-kabelnl.bb
+Description: enigma2-plugin-settings-hans-kabelnl version 1.0+gitAUTOINC+2085265569-r0
+OE: enigma2-plugin-settings-hans-kabelnl
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7bb29ad3c6ca9b9bd4d8825858a670d8
+SHA256sum: 0fdabd3999b331ed81ea47e079b147dce6f15dc0e62be2567337d591bb382f11
+Size: 742
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1ab91bbb185d98d918ecc6fc4a9eb90
+SHA256sum: 1530452cefc2f6aa7bce9166af92e5a472a06f089bd384b5cb204a396ccb90e8
+Size: 784
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3eb9925fc054c95013176ff40d5a48a3
+SHA256sum: efd89f16af697ae7e65338655eb6a624c69c809302afee3eb1e97e0c009a2084
+Size: 79918
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2fb19c831b9332a9cc50c25ba384a97d
+SHA256sum: 9c743c94e6a9c73b0ab8e57ec471ddfce19b702250f864256992bda3070828b7
+Size: 734
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-0.8w-13e-19.2e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4b4d73359208db33c2ceab3587008df
+SHA256sum: 53ed3f2e0458f13e3b07952f8a86aec4a8f8f31e23669c48993f1c50a5a01af5
+Size: 776
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dfc9706be41a822e6ff518bd2626c55e
+SHA256sum: b03f65f46874fd8157b8b461b65b7eb6549cbcb6dced2c536abecd38565de4d0
+Size: 67654
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 63477b65e1cf28ac6a5f4eb340d03ea4
+SHA256sum: 5865bb20d681fe6828167056261e1b640b89963ab8973393f37436a83af3da5f
+Size: 728
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-0.8w-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-0.8w-13e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0b85822b0363b2127de64f8fb59adde2
+SHA256sum: 34521b43d1f38c9ba79a2d9f48f9482a9887f84f48c8972acc0dc657c8be5594
+Size: 770
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-0.8w-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b06c19d0828fbf9481794c9a71d8def
+SHA256sum: 6ec70920642f93f6f80d10eea677b51d27cf70ddcd080dd73777cc365943062c
+Size: 48352
+Filename: enigma2-plugin-settings-morph883-0.8w-13e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-0.8w-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-4.8e-13e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d83b5b6b7990aa45fb325700e9630287
+SHA256sum: 9c87d025d6a8f466f566495329cc9174239b2a524513723ced545d4ea1b79602
+Size: 734
+Filename: enigma2-plugin-settings-morph883-0.8w-4.8e-13e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-4.8e-13e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-4.8e-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-0.8w-4.8e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-4.8e-13e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-0.8w-4.8e-13e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f909b0e97b253990455326b324c5469c
+SHA256sum: 0e176626adb35ac3bda78c33a66b3ae7b517c67f32d5a3b0792571f1c94e4050
+Size: 776
+Filename: enigma2-plugin-settings-morph883-0.8w-4.8e-13e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-4.8e-13e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-4.8e-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-0.8w-4.8e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-0.8w-4.8e-13e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b4a848eee70135825ccc15454e34be6
+SHA256sum: 98f686013cd6eee9aef29746a2522458c806ddbb519da4d0ed3d06ed5dfb0080
+Size: 54212
+Filename: enigma2-plugin-settings-morph883-0.8w-4.8e-13e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-4.8e-13e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-4.8e-13e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-0.8w-4.8e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f2c083f53be0d4cf2e0d7a848e62f6a4
+SHA256sum: da8bb05d5c2449a511c68bc86dd10cab6b22cfbb9fbc5a13c322dbd819ad8d12
+Size: 740
+Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7d97ee5502a2af9806105ad4f136e023
+SHA256sum: 9d612423956b158cd84aeca7e73c6edfe9e24d1f6a8d564726352ec6e7b76028
+Size: 782
+Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1163d41ce979d85bccc83a324b637d95
+SHA256sum: 7d2524b01abe06e2079ebe63d6202b67d193b386606e4f531c3ff5155be03298
+Size: 76272
+Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-16e-19.2e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 612678990e5f70abcf0a55504ee5bf31
+SHA256sum: f88d92a979b6b04f9807a298d07256328f06f4c3d74e9ba2021d7f1b921c2370
+Size: 732
+Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-16e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-16e-19.2e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-16e-19.2e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b6c433d759d2d145a85895fff9191f19
+SHA256sum: bb1bbcf4558646defa8234b8c1a8fcdd54d7a9efca53315ca40a21c033983a79
+Size: 774
+Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-16e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-16e-19.2e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3db8407ed46d9efe9409c0d6bc136e6c
+SHA256sum: b34a3517eef7fdc8dbfe3fb73cf8e8a891251518b0071f6679593506fe3735ba
+Size: 63984
+Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-16e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-16e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 24aa89eb4282cf129f037008c9d584c8
+SHA256sum: 2ce7e611e4eee66de9d2f7c51d2cf06e8669c9f61516f75225a1799d4730c56d
+Size: 724
+Filename: enigma2-plugin-settings-morph883-13e-16e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-16e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-16e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-16e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e2438795c02f909f719b5451bdc5d390
+SHA256sum: ca9759064ea89ab2da8267f5c8b0c80ad4054c368ae2fbb8823df23afce1af18
+Size: 768
+Filename: enigma2-plugin-settings-morph883-13e-16e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-16e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-16e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 528bf2ea6492421afb75262a37c00e15
+SHA256sum: 10d297765dbd8bc19484482d8a23adac8da20496da0a3bee15f7256c302f5b20
+Size: 44660
+Filename: enigma2-plugin-settings-morph883-13e-16e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-16e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a106538fb6591791df89b868a70a9766
+SHA256sum: baade1b2c5747abc8e49ab7b60e6649871e7c8f3f3eca61a07cb178ef2a26a79
+Size: 742
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 10d1e7bdb4a8946a287c2a83b3cf09e6
+SHA256sum: 6d5b02f7eab641bf3e4ac99bf8a2ee72f31f70770c4231d742ca5366394c65e5
+Size: 784
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3850d8815c58e0e25d094ab12634484f
+SHA256sum: 156adbd3a568546f0d9d4fa03b1acfa46a86579311f717ff6926964a817cf9e3
+Size: 75826
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a0e08dacf43ff44de9b0fb659ead9088
+SHA256sum: 0ced10bd8efba90e01c5cfbb86005bd5a2af4c0b3b42872c95afd8d49e279c60
+Size: 734
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-19.2e-23.5e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 499fcaf145cde9166f20cde780be1bea
+SHA256sum: af9a48a65763e1618dd658716bd37904692ae2146120623e4ace48a0d23a1c09
+Size: 778
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8d7783c8c5bfc168ee11927d4aeca329
+SHA256sum: 3f79ccdd9fc7408f197b2dea10104ded72104b48a3fd1417a5d1e54568f70eae
+Size: 63616
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-28.2e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b23c1602babef9b473ac6cb368decbcd
+SHA256sum: 1a0f6eb719970c6afbff8072a2e3405f6bd86ec575509aff3036e8a34df96a8b
+Size: 734
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-28.2e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-19.2e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-28.2e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-19.2e-28.2e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3e9e1160b883787bcc407b682c1fe596
+SHA256sum: ca2330756c3de22d776dda2115225d9a71de9d568e3eee11b0922681842c8833
+Size: 776
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-28.2e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-19.2e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-28.2e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e461de81b016363e0474e3a07e888daf
+SHA256sum: 86d31d60d62c3495bc8bb0d001fcbdc223e4bbed6f7726458a166025eb27f7aa
+Size: 63324
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-28.2e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-19.2e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-42e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5b23fe0bd01cfb1c5e04b7c8979ffca
+SHA256sum: 06bc7d72f97432981a06e33e35d538eb4e7a7650003c2f93605368e5c2964c3e
+Size: 732
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-42e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-42e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-42e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-19.2e-42e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-42e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-19.2e-42e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 36a9e23adac68c52d3e769052f1e36b3
+SHA256sum: 102fb11e23ce87b6838c23da22ffb5b0807b63c821ffa282b01ca1822726c2f1
+Size: 774
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-42e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-42e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-42e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-19.2e-42e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-42e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 279bd331cb67d9d5546fcdb4a272910b
+SHA256sum: fe48fe748b0271363cf0321ac21cd58c6b9dec34deadebc2a7ce48314025293d
+Size: 64806
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-42e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-42e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-42e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-19.2e-42e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 986a82bd6dfc7f21e559c3b467a0d24a
+SHA256sum: 2d4db883ae01014e5a0c1bdddb985447d4e9a3cfe3486202ffc7394e232b770e
+Size: 728
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-19.2e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dccd89371068702f5705c71d38a02708
+SHA256sum: ad4df922b7f0af63bcdc88fceefe294573909ded2346fd8debd24bef04e6738a
+Size: 770
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 919a1efe40ed31eba6fec85b0aaa6479
+SHA256sum: 5b0cd4133b3a3eae8e9d84bd416d17ca2de761889908a371ae5270f052a98779
+Size: 51026
+Filename: enigma2-plugin-settings-morph883-13e-19.2e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-23.5e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 154fab8e25f0866325cd83fb6f9a76d4
+SHA256sum: ea472e65eaa8c984d4b38a60fed4a29f9a9a9dba35ccb80667a4e4550ae53db2
+Size: 728
+Filename: enigma2-plugin-settings-morph883-13e-23.5e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-23.5e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-23.5e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-23.5e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-23.5e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dce30cbd6495a2f7f92912c9a0c46434
+SHA256sum: 9ddacb2bc5df05fc35e411d8dacd19023b14c463e9f62393f46aff11b909d90e
+Size: 770
+Filename: enigma2-plugin-settings-morph883-13e-23.5e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-23.5e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-23.5e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-23.5e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0ccb824e4e8db5d2000dc655de9c1489
+SHA256sum: 96742bd3fdd9dd367f865450edb3ceefff70e5c8e69293d408f8d34407c80fb2
+Size: 44410
+Filename: enigma2-plugin-settings-morph883-13e-23.5e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-23.5e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-23.5e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-28.2e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bb387100265cad77223172d53764bc2f
+SHA256sum: 4387cdb35beffe81711dc9d97c1a436ba61f94ddff3ed6bca52a7a397999fbe7
+Size: 728
+Filename: enigma2-plugin-settings-morph883-13e-28.2e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-28.2e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-28.2e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bbc3c95b9100024ddd318ea5fed80943
+SHA256sum: 00fd90e02cc5b1556f9c957579ab2c9f80e832bac17a86433a5af8adc936103d
+Size: 770
+Filename: enigma2-plugin-settings-morph883-13e-28.2e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-28.2e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 09e9b58df1cf88b60f36bc109a5119b1
+SHA256sum: aa678fbc858a1dbc201133beff434b2dc387c32f485d4169298da1058d85f0d1
+Size: 44006
+Filename: enigma2-plugin-settings-morph883-13e-28.2e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-28.2e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-28.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-42e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8631d83dc433ecc26b14d54312c664ce
+SHA256sum: a939adc8b8ae9a6e78a0d8cd72fe399deb092d899f2809393212bf3efd52ddd1
+Size: 724
+Filename: enigma2-plugin-settings-morph883-13e-42e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-42e.bb
+Description: enigma2-plugin-settings-morph883-13e-42e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e-42e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-42e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e-42e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 036312dd8ba9799e92fcb09580c9c34b
+SHA256sum: 42bfeed1df2223b746e86d813e38cd774aefcb92ff4633c6a87768a028d8e454
+Size: 768
+Filename: enigma2-plugin-settings-morph883-13e-42e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-42e.bb
+Description: enigma2-plugin-settings-morph883-13e-42e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e-42e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-42e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ba534119b387cc51b99d2cf1b94bda2b
+SHA256sum: 5ae6713e50bdb74cf9a98dc8f188470e5c67c4373aeeb02e1c55379f3efbf71c
+Size: 45400
+Filename: enigma2-plugin-settings-morph883-13e-42e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-42e.bb
+Description: enigma2-plugin-settings-morph883-13e-42e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e-42e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 818d71cf2197a74de3bbb1111d3abf36
+SHA256sum: 71922108c1d5258b7f463ad4caecaa9d4701f59e45649c84012420f67af62756
+Size: 718
+Filename: enigma2-plugin-settings-morph883-13e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e.bb
+Description: enigma2-plugin-settings-morph883-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-13e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 44b5db7f3b5a5b6616a8b8d095949dd2
+SHA256sum: 28555475d1106cc745f4b6b07a63b8bdfe2d06ecaa29faa61c9e183e2e3fba92
+Size: 762
+Filename: enigma2-plugin-settings-morph883-13e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e.bb
+Description: enigma2-plugin-settings-morph883-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-13e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 92c009abc59141ba75ba957a668bcee1
+SHA256sum: 3791064428de5dcf0c1ce0b063d5d04adb295e8cf4f3238d305d3b498b1ca120
+Size: 31610
+Filename: enigma2-plugin-settings-morph883-13e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e.bb
+Description: enigma2-plugin-settings-morph883-13e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-30w-13e-19.2e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1a314c39d0fefa34bd3199d095ded3cb
+SHA256sum: 6d83e3be27720204e58f1e1f06f7d71b8a60a6854f51b0516d98e7b6e1ef0389
+Size: 734
+Filename: enigma2-plugin-settings-morph883-30w-13e-19.2e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-30w-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-30w-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-30w-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-30w-13e-19.2e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-30w-13e-19.2e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f8e012ed05dd5f22f31412d0c7203e12
+SHA256sum: 0e47f97087c64bb5d363dd4206677e95c6a723b065514a133ab0aee715b29337
+Size: 776
+Filename: enigma2-plugin-settings-morph883-30w-13e-19.2e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-30w-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-30w-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-30w-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-30w-13e-19.2e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 585bd35f7860c8b88899da3dfb7f3987
+SHA256sum: ef03a4b4679513dbb057f159176621baee44d3724bc2d524fd5e94ecc0105c10
+Size: 60200
+Filename: enigma2-plugin-settings-morph883-30w-13e-19.2e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-30w-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-30w-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-30w-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-30w-13e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7ae7a87c17da619ad328d843c8144cba
+SHA256sum: 57329eb49f131f0f66c3275a63ff7702e841c30042ae79b500d9fc6d5e7fa506
+Size: 726
+Filename: enigma2-plugin-settings-morph883-30w-13e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-30w-13e.bb
+Description: enigma2-plugin-settings-morph883-30w-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-30w-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-30w-13e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-30w-13e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2461eaac1a6bf034d6feab8f6fd5bc3
+SHA256sum: 3fe6c65e32ab4bf6a6a44281d3109b27d20c4955fb6577c9b1ecae3e3930f9a2
+Size: 768
+Filename: enigma2-plugin-settings-morph883-30w-13e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-30w-13e.bb
+Description: enigma2-plugin-settings-morph883-30w-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-30w-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-30w-13e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2013d23395c6215d08d9f5f188a1662b
+SHA256sum: 2b5ae948d8dce594b08d4771baf0f5ba729c507f203af27e10d78ce9ebe97fd8
+Size: 40912
+Filename: enigma2-plugin-settings-morph883-30w-13e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-30w-13e.bb
+Description: enigma2-plugin-settings-morph883-30w-13e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-30w-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-4.8e-13e-19.2e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8e933f0a873749d53f1fd3d71a7c9f60
+SHA256sum: d73b808871cb354f4a887b4683eaf02510c563baf325bb7a9849d91924803ccc
+Size: 732
+Filename: enigma2-plugin-settings-morph883-4.8e-13e-19.2e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-4.8e-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-4.8e-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-4.8e-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-4.8e-13e-19.2e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-4.8e-13e-19.2e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5b86f7b7ee4e201588ab1fc32cf268be
+SHA256sum: 02b8f4d16d9ef45dc9b43745a87c4a4100ddffb70b58f0cac115221cb0b4e3f6
+Size: 776
+Filename: enigma2-plugin-settings-morph883-4.8e-13e-19.2e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-4.8e-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-4.8e-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-4.8e-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-4.8e-13e-19.2e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6cfac53312f9514e1a617e94cfb819b7
+SHA256sum: df82825f9231af7b5af808e8e8c1434604a143204c80f5e182c08aef21c1a8af
+Size: 56838
+Filename: enigma2-plugin-settings-morph883-4.8e-13e-19.2e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-4.8e-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-4.8e-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-4.8e-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-4.8e-13e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cddd26dc4c0e77a1b3da6c9a26c8dc24
+SHA256sum: d00da14a003094e05e53b840c13c2b5a314e3387b2d8a76fabc1e4e2c08cbed6
+Size: 728
+Filename: enigma2-plugin-settings-morph883-4.8e-13e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-4.8e-13e.bb
+Description: enigma2-plugin-settings-morph883-4.8e-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-4.8e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-4.8e-13e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-4.8e-13e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 33a2c5f3f9ccde2afc6f165e2efc0ab1
+SHA256sum: e66ad18b0bc5bd6d106f3505a1dc86fd5d93371735c23534b859a0498a4fcd76
+Size: 768
+Filename: enigma2-plugin-settings-morph883-4.8e-13e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-4.8e-13e.bb
+Description: enigma2-plugin-settings-morph883-4.8e-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-4.8e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-4.8e-13e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 296d66dfa0f588f4b5866e4826151b29
+SHA256sum: 32fadc3722c327c47e59b04c4a832d4f579deffbf9b525842ab309a715ec7d41
+Size: 37530
+Filename: enigma2-plugin-settings-morph883-4.8e-13e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-4.8e-13e.bb
+Description: enigma2-plugin-settings-morph883-4.8e-13e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-4.8e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-9e-13e-19.2e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7d2fa1158aea31b198c82fa3ce4d7fcc
+SHA256sum: 302d38fbe0882bc05e5be308b4f787cca682a7dc7cf8c72af6f840a2facf30c8
+Size: 732
+Filename: enigma2-plugin-settings-morph883-9e-13e-19.2e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-9e-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-9e-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-9e-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-9e-13e-19.2e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-9e-13e-19.2e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bb017d5a5f3ead9685d68a6b5e136b1f
+SHA256sum: 8087a08d9efab9c779a192b63e2d1d4c992f2819a40042d5ddbdbf9cbff961f7
+Size: 774
+Filename: enigma2-plugin-settings-morph883-9e-13e-19.2e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-9e-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-9e-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-9e-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-9e-13e-19.2e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6464b99e9c745cb906064ce4aca0275b
+SHA256sum: eed011877bdd45ec41f7140013066cf586cf53fb3bc27424ff311c60db7528dc
+Size: 62144
+Filename: enigma2-plugin-settings-morph883-9e-13e-19.2e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-9e-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-9e-13e-19.2e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-9e-13e-19.2e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-9e-13e-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a2e02b2c005668b64cd880493767908f
+SHA256sum: e399df61a585fc4dec80442f4f1201994a21fb3ee6bdb9a084efa0dce864ce7a
+Size: 724
+Filename: enigma2-plugin-settings-morph883-9e-13e-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-9e-13e.bb
+Description: enigma2-plugin-settings-morph883-9e-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-9e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-9e-13e-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-9e-13e (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c74b0695142b6b18cb0a9ad566bde6dc
+SHA256sum: f6c9bdc7f65641bae16aecf5efc6d3213ce9ae575f39d2e322ade2c5f09c37e0
+Size: 766
+Filename: enigma2-plugin-settings-morph883-9e-13e-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-9e-13e.bb
+Description: enigma2-plugin-settings-morph883-9e-13e version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-9e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-9e-13e
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1f63c78cc3a023191e385c14868f9051
+SHA256sum: cdb7c7ba11c92dae6bf5036ecc5534738ee0a0bce31fc61ae1eccfe6f3173cae
+Size: 42858
+Filename: enigma2-plugin-settings-morph883-9e-13e_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-9e-13e.bb
+Description: enigma2-plugin-settings-morph883-9e-13e version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-9e-13e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-motor-dbg
+Version: 1.0+git384+f07e2c2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4baf74b8c51dadf78dea770731814224
+SHA256sum: 0d00dd5771d6ebc3b6a24e63ad42909532a327b32b3bbd3235f1590dc9ee35bc
+Size: 720
+Filename: enigma2-plugin-settings-morph883-motor-dbg_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-motor.bb
+Description: enigma2-plugin-settings-morph883-motor version 1.0+gitAUTOINC+f07e2c2df7-r0 - Debugging files
+OE: enigma2-plugin-settings-morph883-motor
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-motor-dev
+Version: 1.0+git384+f07e2c2-r0
+Depends: enigma2-plugin-settings-morph883-motor (= 1.0+git384+f07e2c2-r0)
+Recommends: xz-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ff6986c98b2de268c02848441b25f9e5
+SHA256sum: d50bdf2dfa695a866152083dc6366e4f023e5b08399fcc9adac1632f78481c41
+Size: 762
+Filename: enigma2-plugin-settings-morph883-motor-dev_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-motor.bb
+Description: enigma2-plugin-settings-morph883-motor version 1.0+gitAUTOINC+f07e2c2df7-r0 - Development files
+OE: enigma2-plugin-settings-morph883-motor
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-morph883-motor
+Version: 1.0+git384+f07e2c2-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bb62058066e9121e48e8faa80f95f9ce
+SHA256sum: ea55ced6aa7968610f25cdb4cecfa7653178f1dbc0c8aa1d1626d68057e313a7
+Size: 247594
+Filename: enigma2-plugin-settings-morph883-motor_1.0+git384+f07e2c2-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-motor.bb
+Description: enigma2-plugin-settings-morph883-motor version 1.0+gitAUTOINC+f07e2c2df7-r0
+OE: enigma2-plugin-settings-morph883-motor
+License: CLOSED
+Priority: optional
+
 Package: enigma2-plugin-skins-cyber-fhd-dbg
-Version: 1.5+git287+71f9c2c-r9
+Version: 1.5+git288+7e0b2fe-r9
 Section: devel
 Architecture: all
 Maintainer: Sirius0103
-MD5Sum: 565db8bb4d6d91359a52600ef05b5205
-SHA256sum: 89304c03ccee24dce40487f09924adde777cb7321f480e706ae069124636e287
-Size: 676
-Filename: enigma2-plugin-skins-cyber-fhd-dbg_1.5+git287+71f9c2c-r9_all.ipk
+MD5Sum: 2f579925b7ddc9df912288f970b9a817
+SHA256sum: e4069da1d598195044510697ac289fc88e0cc6f3368b5e1ac0e2d3891877a238
+Size: 678
+Filename: enigma2-plugin-skins-cyber-fhd-dbg_1.5+git288+7e0b2fe-r9_all.ipk
 Source: enigma2-plugin-skins-cyber-fhd.bb
-Description: enigma2-plugin-skins-cyber-fhd version 1.5+gitAUTOINC+71f9c2c7cd-r9 - Debugging files
+Description: enigma2-plugin-skins-cyber-fhd version 1.5+gitAUTOINC+7e0b2fe54c-r9 - Debugging files
 OE: enigma2-plugin-skins-cyber-fhd
 License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-cyber-fhd-dev
-Version: 1.5+git287+71f9c2c-r9
-Depends: enigma2-plugin-skins-cyber-fhd (= 1.5+git287+71f9c2c-r9)
+Version: 1.5+git288+7e0b2fe-r9
+Depends: enigma2-plugin-skins-cyber-fhd (= 1.5+git288+7e0b2fe-r9)
 Section: devel
 Architecture: all
 Maintainer: Sirius0103
-MD5Sum: b995eb64d08b7694535149a405ef209f
-SHA256sum: 007ecbf7d0994e85286f83950b837302351f120986932474a67684a583835173
-Size: 712
-Filename: enigma2-plugin-skins-cyber-fhd-dev_1.5+git287+71f9c2c-r9_all.ipk
+MD5Sum: 67e39a7d4bfd98fb4195e8bce0afe1f9
+SHA256sum: ce59d61e8fe978ca3c3cd53aca3e1ea418319baf66bb47640cc34bd7d9f5973c
+Size: 710
+Filename: enigma2-plugin-skins-cyber-fhd-dev_1.5+git288+7e0b2fe-r9_all.ipk
 Source: enigma2-plugin-skins-cyber-fhd.bb
-Description: enigma2-plugin-skins-cyber-fhd version 1.5+gitAUTOINC+71f9c2c7cd-r9 - Development files
+Description: enigma2-plugin-skins-cyber-fhd version 1.5+gitAUTOINC+7e0b2fe54c-r9 - Development files
 OE: enigma2-plugin-skins-cyber-fhd
 License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-cyber-fhd
-Version: 1.5+git287+71f9c2c-r9
+Version: 1.5+git288+7e0b2fe-r9
 Section: base
 Architecture: all
 Maintainer: Sirius0103
-MD5Sum: ac316ccddfa9846a764e31c28dc42658
-SHA256sum: 0134c394650bd5289cfaecd5de0da383dfe572387df92bf4e089fa52dceb8ebc
-Size: 4469966
-Filename: enigma2-plugin-skins-cyber-fhd_1.5+git287+71f9c2c-r9_all.ipk
+MD5Sum: dfe83df3d41c7f24f34c9d818dcf1dee
+SHA256sum: 052d639caa40c0155ee69156bca446b9e512897cb4f683456d54537587f5c3e1
+Size: 4470164
+Filename: enigma2-plugin-skins-cyber-fhd_1.5+git288+7e0b2fe-r9_all.ipk
 Source: enigma2-plugin-skins-cyber-fhd.bb
-Description: enigma2-plugin-skins-cyber-fhd version 1.5+gitAUTOINC+71f9c2c7cd-r9
+Description: enigma2-plugin-skins-cyber-fhd version 1.5+gitAUTOINC+7e0b2fe54c-r9
 OE: enigma2-plugin-skins-cyber-fhd
 License: Proprietary
 Priority: optional
@@ -279,9 +2949,9 @@ Version: 1.0+git220+8b4dfd0-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: de9862c53a9be7a2c16bd27d4605b7a5
-SHA256sum: c9dba88dbf9e68418b2fa0911952e571f61aeeaecb45e679df8eeace84ea0f00
-Size: 700
+MD5Sum: a2d897b200b9aa98cceb36861185707d
+SHA256sum: 70450c4b3e4206061ceac1e95b4fa158b8254f975806a0b638f39bf36bc553a7
+Size: 702
 Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git220+8b4dfd0-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: enigma2-plugin-skins-e2darkos version 1.0+gitAUTOINC+8b4dfd0479-r0 - Debugging files
@@ -296,9 +2966,9 @@ Recommends: python3-dev
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 507d23728215567c2d1dcde1152c5538
-SHA256sum: 660216733cb119efdc7a4b289edf29a73cbbf4780b2283af96297f8406123492
-Size: 746
+MD5Sum: 69e0ee5baf4488380c88f7f7f0e3363a
+SHA256sum: 13cd5fe5b5309b83d4bec5b52159f218e273934aff35922e8c4dd2c30174ca81
+Size: 748
 Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git220+8b4dfd0-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: enigma2-plugin-skins-e2darkos version 1.0+gitAUTOINC+8b4dfd0479-r0 - Development files
@@ -312,13 +2982,75 @@ Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 1d80f586795de1532fdbea1fb6ccd082
-SHA256sum: 6b7addccfa6bb54347ac858eb7a7098bd639c15c39fa13e64687dc63ca95355f
-Size: 2833832
+MD5Sum: e2d4a38a9f8a75f0500e87d97791f1c0
+SHA256sum: c00f042927f6ddbe340b9d596a12ecaea3640f35fc027080e59d866bca8834ac
+Size: 2833986
 Filename: enigma2-plugin-skins-e2darkos_1.0+git220+8b4dfd0-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: enigma2-plugin-skins-e2darkos version 1.0+gitAUTOINC+8b4dfd0479-r0
 OE: enigma2-plugin-skins-e2darkos
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-glamouraurafhd-dbg
+Version: 6.0.5+git560+580813d-r0
+Section: devel
+Architecture: all
+Maintainer: MCelliotG
+MD5Sum: 33b738020c515eabe96c896473ff3134
+SHA256sum: 2b912daf83d41b235c79d8355d6246405f75f56ee8ca260dcca59f8122a5d67e
+Size: 726
+Filename: enigma2-plugin-skins-glamouraurafhd-dbg_6.0.5+git560+580813d-r0_all.ipk
+Source: enigma2-plugin-skins-glamouraurafhd.bb
+Description: enigma2-plugin-skins-glamouraurafhd version 6.0.5+gitAUTOINC+580813d47a-r0 - Debugging files
+OE: enigma2-plugin-skins-glamouraurafhd
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-glamouraurafhd-dev
+Version: 6.0.5+git560+580813d-r0
+Depends: enigma2-plugin-skins-glamouraurafhd (= 6.0.5+git560+580813d-r0)
+Recommends: python3-dev
+Section: devel
+Architecture: all
+Maintainer: MCelliotG
+MD5Sum: 579b518d1ecb331e0f5faf996029b62a
+SHA256sum: 40036f03b5258b22c53860d5b7446d50c759eaff1f60b66be5795797cccb3d9f
+Size: 774
+Filename: enigma2-plugin-skins-glamouraurafhd-dev_6.0.5+git560+580813d-r0_all.ipk
+Source: enigma2-plugin-skins-glamouraurafhd.bb
+Description: enigma2-plugin-skins-glamouraurafhd version 6.0.5+gitAUTOINC+580813d47a-r0 - Development files
+OE: enigma2-plugin-skins-glamouraurafhd
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-glamouraurafhd-src
+Version: 6.0.5+git560+580813d-r0
+Section: devel
+Architecture: all
+Maintainer: MCelliotG
+MD5Sum: dfd71fa4300623e8bbd408687e059851
+SHA256sum: 106bc2316ca7691ab5de95f4a04356d557ac486eca6dec687f88908cd9e3a3ef
+Size: 46236
+Filename: enigma2-plugin-skins-glamouraurafhd-src_6.0.5+git560+580813d-r0_all.ipk
+Source: enigma2-plugin-skins-glamouraurafhd.bb
+Description: enigma2-plugin-skins-glamouraurafhd version 6.0.5+gitAUTOINC+580813d47a-r0 - Source files
+OE: enigma2-plugin-skins-glamouraurafhd
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-glamouraurafhd
+Version: 6.0.5+git560+580813d-r0
+Section: base
+Architecture: all
+Maintainer: MCelliotG
+MD5Sum: da721cd3215cfb5ebd311025cc3d2362
+SHA256sum: bd72fe50b82475c6a79171c0d8d71cf902c9b6e34de0683f5f8a544aab8b9ac9
+Size: 11636146
+Filename: enigma2-plugin-skins-glamouraurafhd_6.0.5+git560+580813d-r0_all.ipk
+Source: enigma2-plugin-skins-glamouraurafhd.bb
+Description: enigma2-plugin-skins-glamouraurafhd version 6.0.5+gitAUTOINC+580813d47a-r0
+OE: enigma2-plugin-skins-glamouraurafhd
 License: GPL-3.0-only
 Priority: optional
 
@@ -336,6 +3068,68 @@ Source: enigma2-plugin-skins-magic.bb
 Description: enigma2-plugin-skins-magic version 1.2+gitAUTOINC+8b5fb84750-r0
 OE: enigma2-plugin-skins-magic
 License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-pd1loi-hd-night-dbg
+Version: 2.6.1+git568+35148fc-r0
+Section: devel
+Architecture: all
+Maintainer: pd1loi1
+MD5Sum: b61d8985e5f92b4ee12a697bca124d1d
+SHA256sum: f8ebf840a5ea49ba21be5db587b2248b911dd550ab8e830f5c39d5dd06271fbe
+Size: 682
+Filename: enigma2-plugin-skins-pd1loi-hd-night-dbg_2.6.1+git568+35148fc-r0_all.ipk
+Source: enigma2-plugin-skins-pd1loi-hd-night.bb
+Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+gitAUTOINC+35148fcd5b-r0 - Debugging files
+OE: enigma2-plugin-skins-pd1loi-hd-night
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-pd1loi-hd-night-dev
+Version: 2.6.1+git568+35148fc-r0
+Depends: enigma2-plugin-skins-pd1loi-hd-night (= 2.6.1+git568+35148fc-r0)
+Recommends: python3-dev
+Section: devel
+Architecture: all
+Maintainer: pd1loi1
+MD5Sum: 9e5d74f672caa7e1162fdd712c4cac10
+SHA256sum: 7df05579b81408a3ba62cc6520fe45970b0ebf4fc5d2d761aab2d0c729a36acc
+Size: 732
+Filename: enigma2-plugin-skins-pd1loi-hd-night-dev_2.6.1+git568+35148fc-r0_all.ipk
+Source: enigma2-plugin-skins-pd1loi-hd-night.bb
+Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+gitAUTOINC+35148fcd5b-r0 - Development files
+OE: enigma2-plugin-skins-pd1loi-hd-night
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-pd1loi-hd-night-src
+Version: 2.6.1+git568+35148fc-r0
+Section: devel
+Architecture: all
+Maintainer: pd1loi1
+MD5Sum: 4365271d26e47f4d996dcd41c869af2d
+SHA256sum: 5a416b5ec7293992d647c5c73eca52c8210f755f3c4fe3fc5066f5417ed60fc8
+Size: 5088
+Filename: enigma2-plugin-skins-pd1loi-hd-night-src_2.6.1+git568+35148fc-r0_all.ipk
+Source: enigma2-plugin-skins-pd1loi-hd-night.bb
+Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+gitAUTOINC+35148fcd5b-r0 - Source files
+OE: enigma2-plugin-skins-pd1loi-hd-night
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-pd1loi-hd-night
+Version: 2.6.1+git568+35148fc-r0
+Section: base
+Architecture: all
+Maintainer: pd1loi1
+MD5Sum: 5a685ec9108d10c224467da117be1f07
+SHA256sum: f8d72f271a2b64498bcb0c709b90130d69d039e45bc63ed5eb72d604d8a82e33
+Size: 4822514
+Filename: enigma2-plugin-skins-pd1loi-hd-night_2.6.1+git568+35148fc-r0_all.ipk
+Source: enigma2-plugin-skins-pd1loi-hd-night.bb
+Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+gitAUTOINC+35148fcd5b-r0
+OE: enigma2-plugin-skins-pd1loi-hd-night
+License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-dbg
@@ -369,6 +3163,52 @@ OE: enigma2-plugin-skins-pli-hd
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-skins-pli-hd-fullnight-dbg
+Version: 0.1+git109+99adc65-r0
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: f5c6195b67b58c5d1f97c1cc3aeefe83
+SHA256sum: c5cc7dd255d12b0e7162712c0f8c6924e337610a605a9c296f647681f16cf7b5
+Size: 690
+Filename: enigma2-plugin-skins-pli-hd-fullnight-dbg_0.1+git109+99adc65-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd-fullnight.bb
+Description: enigma2-plugin-skins-pli-hd-fullnight version 0.1+gitAUTOINC+99adc658e4-r0 - Debugging files
+OE: enigma2-plugin-skins-pli-hd-fullnight
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-fullnight-dev
+Version: 0.1+git109+99adc65-r0
+Depends: enigma2-plugin-skins-pli-hd-fullnight (= 0.1+git109+99adc65-r0)
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: b86785e89330f9d2c5ac046f814d8e42
+SHA256sum: 53b9dbeedc986e7b83a06088d15c36d17daedd3826b21450867d9facdf88d30a
+Size: 724
+Filename: enigma2-plugin-skins-pli-hd-fullnight-dev_0.1+git109+99adc65-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd-fullnight.bb
+Description: enigma2-plugin-skins-pli-hd-fullnight version 0.1+gitAUTOINC+99adc658e4-r0 - Development files
+OE: enigma2-plugin-skins-pli-hd-fullnight
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-fullnight
+Version: 0.1+git109+99adc65-r0
+Section: base
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 1088a0326f0f7474ad3068c0a65ae190
+SHA256sum: f09299a461a50c68cdadc8aea3db7c382f4db81601c1b9ba2d06f5b04f77c121
+Size: 131012
+Filename: enigma2-plugin-skins-pli-hd-fullnight_0.1+git109+99adc65-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd-fullnight.bb
+Description: enigma2-plugin-skins-pli-hd-fullnight version 0.1+gitAUTOINC+99adc658e4-r0
+OE: enigma2-plugin-skins-pli-hd-fullnight
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-skins-pli-hd
 Version: 0.1+git2266+7f7883d-r0
 Section: base
@@ -384,6 +3224,98 @@ OE: enigma2-plugin-skins-pli-hd
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-skins-simple-gray-dbg
+Version: git280-git280+da580e1-r0
+Section: devel
+Architecture: all
+Maintainer: Taapat
+MD5Sum: 45ebd32c7226d24e8442e9fef436fb8d
+SHA256sum: fa3e1ea51af046ab4f32d73512b09aeb2f25014fe5849fc571aa83c8f1eb0289
+Size: 700
+Filename: enigma2-plugin-skins-simple-gray-dbg_git280-git280+da580e1-r0_all.ipk
+Source: enigma2-plugin-skins-simple-gray.bb
+Description: enigma2-plugin-skins-simple-gray version gitAUTOINC+da580e1ba4-r0 - Debugging files
+OE: enigma2-plugin-skins-simple-gray
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-simple-gray-dev
+Version: git280-git280+da580e1-r0
+Depends: enigma2-plugin-skins-simple-gray (= git280-git280+da580e1-r0)
+Recommends: python3-dev
+Section: devel
+Architecture: all
+Maintainer: Taapat
+MD5Sum: 387d6dd60e77489fd90ccc47c2d69f3a
+SHA256sum: 6c525d2d2f7be2f6101a9a62ecc72d2d23c0c7f351d9ecc38e1a57eb003174c3
+Size: 750
+Filename: enigma2-plugin-skins-simple-gray-dev_git280-git280+da580e1-r0_all.ipk
+Source: enigma2-plugin-skins-simple-gray.bb
+Description: enigma2-plugin-skins-simple-gray version gitAUTOINC+da580e1ba4-r0 - Development files
+OE: enigma2-plugin-skins-simple-gray
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-simple-gray-src
+Version: git280-git280+da580e1-r0
+Section: devel
+Architecture: all
+Maintainer: Taapat
+MD5Sum: cfbaf977855f18ce8ccb3c0645f570ee
+SHA256sum: 6d7a9d9136dc2fb6c8555c6b3644d004f45b32ea70b2c8b890737470ed640601
+Size: 3108
+Filename: enigma2-plugin-skins-simple-gray-src_git280-git280+da580e1-r0_all.ipk
+Source: enigma2-plugin-skins-simple-gray.bb
+Description: enigma2-plugin-skins-simple-gray version gitAUTOINC+da580e1ba4-r0 - Source files
+OE: enigma2-plugin-skins-simple-gray
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-simple-gray
+Version: git280-git280+da580e1-r0
+Section: base
+Architecture: all
+Maintainer: Taapat
+MD5Sum: 1a01e8f20be8e136b70477b308ede3a8
+SHA256sum: 329ce58e4509c9546a89f2a0663606f5af57e054b621251450ff31a73b27fe04
+Size: 320234
+Filename: enigma2-plugin-skins-simple-gray_git280-git280+da580e1-r0_all.ipk
+Source: enigma2-plugin-skins-simple-gray.bb
+Description: enigma2-plugin-skins-simple-gray version gitAUTOINC+da580e1ba4-r0
+OE: enigma2-plugin-skins-simple-gray
+License: GPL-3.0-only
+Priority: optional
+
+Package: firmware-as102-data1-st
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0ae421b2528ac789030f5013e785a331
+SHA256sum: 22ce38e03fce5e18de8ca808db4c52c856726e4bc3d5771c2eea41b35f6e82f5
+Size: 29958
+Filename: firmware-as102-data1-st_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-as102-data1-st.bb
+Description: firmware-as102-data1-st version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-as102-data1-st
+License: CLOSED
+Priority: optional
+
+Package: firmware-as102-data2-st
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 127e04f49a1bac18ce823d840c028e2a
+SHA256sum: 5ef746dd2465fb3083c868172ccfd88daee12ec4c16c4cbe3711855066b5c9a1
+Size: 19234
+Filename: firmware-as102-data2-st_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-as102-data2-st.bb
+Description: firmware-as102-data2-st version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-as102-data2-st
+License: CLOSED
+Priority: optional
+
 Package: firmware-carl9170
 Version: 1.1+git296+4b2b151-r0
 Section: base
@@ -396,6 +3328,396 @@ Filename: firmware-carl9170_1.1+git296+4b2b151-r0_all.ipk
 Source: firmware-carl9170_1.9.5.bb
 Description: firmware-carl9170 version 1.1+gitAUTOINC+4b2b151e18-r0
 OE: firmware-carl9170
+License: CLOSED
+Priority: optional
+
+Package: firmware-cx231xx
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 31c201c7167ab7788c96b3b91b85aaf0
+SHA256sum: 01f748710a61c7af4ccb94e028a7bf31f26e1a60f02ed0a61982a94f8b38f067
+Size: 8532
+Filename: firmware-cx231xx_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-cx231xx.bb
+Description: firmware-cx231xx version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-cx231xx
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-demod-m88ds3103
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1e3fe6e684fdddbae20bc7461c2f8f67
+SHA256sum: a4bbb7fd5bb020368b59a6430966c905696a6f40a0b31889311b06e16436a796
+Size: 4724
+Filename: firmware-dvb-demod-m88ds3103_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-demod-m88ds3103.bb
+Description: firmware-dvb-demod-m88ds3103 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-demod-m88ds3103
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-demod-mn88473-01
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 94e89e23d55bbb46560eebb8a591de8b
+SHA256sum: 1cd60213557bd48be06f4c0b27309107418694d7da20b91f9525d5d717e3de45
+Size: 2030
+Filename: firmware-dvb-demod-mn88473-01_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-demod-mn88473-01.bb
+Description: firmware-dvb-demod-mn88473-01 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-demod-mn88473-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-demod-si2168-b40
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4c8337af1802c4958811d2a72c69549
+SHA256sum: bee0bc0bb9bc48f34cc0cca6f9d6be3fb71bad62b4881608ebcf9e6efe409975
+Size: 5332
+Filename: firmware-dvb-demod-si2168-b40_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-demod-si2168-b40.bb
+Description: firmware-dvb-demod-si2168-b40 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-demod-si2168-b40
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-fe-af9013
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df2f2d1b58b876b1ebc8028a2f4ac91b
+SHA256sum: 6a4fd5d47932f55d35edc86c672b781623446d205af45a4539dbb60581431048
+Size: 6662
+Filename: firmware-dvb-fe-af9013_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-fe-af9013.bb
+Description: firmware-dvb-fe-af9013 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-fe-af9013
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-fe-ds3000
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f26ab95716e7e82407ca92bd326a671e
+SHA256sum: a11da0123db00166881789331f571320bd1fd1eb547debdbfb047916dfc12601
+Size: 4070
+Filename: firmware-dvb-fe-ds3000_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-fe-ds3000.bb
+Description: firmware-dvb-fe-ds3000 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-fe-ds3000
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-fe-tda10071
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8cead8d004800925fac1e031a7caf460
+SHA256sum: 16ee207089b022187d493e9521c6183cb9cce3031586f6e5a111245f36f037a5
+Size: 26026
+Filename: firmware-dvb-fe-tda10071_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-fe-tda10071.bb
+Description: firmware-dvb-fe-tda10071 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-fe-tda10071
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-nova-12mhz-b0
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4645b9c7b1a518df3b866626dc25b96b
+SHA256sum: e11a73ffad46f50522f91692c92694bca6f079c7ead7978a4f416ac01f7e1a7e
+Size: 57570
+Filename: firmware-dvb-nova-12mhz-b0_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-nova-12mhz-b0.bb
+Description: firmware-dvb-nova-12mhz-b0 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-nova-12mhz-b0
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-siano
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0abdf83881da7a89d3a4878f5f231e48
+SHA256sum: 0cb008e21a8836efaa3372171b79254eb6acfdb0cabc7519c163ff2c9eec2bff
+Size: 85420
+Filename: firmware-dvb-siano_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-siano.bb
+Description: firmware-dvb-siano version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-siano
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-af9015
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c2bd8c3f884432ec3a03b8ff3d0bced
+SHA256sum: 266e8c78c362120d4f3f2d7068ba9b965f8f34cbd329bf2a0607510dbf5090f2
+Size: 7902
+Filename: firmware-dvb-usb-af9015_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-af9015.bb
+Description: firmware-dvb-usb-af9015 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-af9015
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-af9035-01
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bb12ff75604091d72e6023a9f1220ee2
+SHA256sum: a9d4be9b30233ae9a7f6c2879ee226ddb53b5bff650b36bd16a7601574be4cbf
+Size: 21416
+Filename: firmware-dvb-usb-af9035-01_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-af9035-01.bb
+Description: firmware-dvb-usb-af9035-01 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-af9035-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-af9035-02
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 435a8defa7dbf6b1477353db21ca2b80
+SHA256sum: f37f731509315980d84610ef9b96a20140f91aed39e6b0ed53b8a03026bd05c1
+Size: 21360
+Filename: firmware-dvb-usb-af9035-02_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-af9035-02.bb
+Description: firmware-dvb-usb-af9035-02 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-af9035-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dib0700-1.20
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de7f31f1dc141aa32022dde734f3945e
+SHA256sum: 4089a3804ecd8a98f97507dd0cd3270cbbf8898fcba39a59ea118f8a45b3dfb4
+Size: 19946
+Filename: firmware-dvb-usb-dib0700-1.20_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-dib0700-1.20.bb
+Description: firmware-dvb-usb-dib0700-1.20 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-dib0700-1.20
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dibusb-5.0.0.11
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be0c00fb1bb424a21fa5113e73b800ff
+SHA256sum: db396dff55a6fc870f0e87dc7831aef9c69a7e07e05a438b524c76345bc462f1
+Size: 6654
+Filename: firmware-dvb-usb-dibusb-5.0.0.11_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-dibusb-5.0.0.11.bb
+Description: firmware-dvb-usb-dibusb-5.0.0.11 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-dibusb-5.0.0.11
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dibusb-6.0.0.8
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3ae99b8340c08106d48e1502e04ab880
+SHA256sum: 28c9b02a24377380b4230cfdae0c5ef46832b70e3fb5f6b0f9b4f9f89395b4e5
+Size: 5840
+Filename: firmware-dvb-usb-dibusb-6.0.0.8_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-dibusb-6.0.0.8.bb
+Description: firmware-dvb-usb-dibusb-6.0.0.8 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-dibusb-6.0.0.8
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dibusb-an2235-01
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0bf047763467240ef2fbe2a0284d0a5b
+SHA256sum: 3cedf93dc85323b45e6db97d0131ef352df2313f31bfc87227ce28a5c908d373
+Size: 5884
+Filename: firmware-dvb-usb-dibusb-an2235-01_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-dibusb-an2235-01.bb
+Description: firmware-dvb-usb-dibusb-an2235-01 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-dibusb-an2235-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dtt200u-01
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: baf82c500ee65d359e1280800e2d7e61
+SHA256sum: 99925035ab89d5415ff40da8507d2b7e4296b952784564054e132e6aa20b481a
+Size: 5072
+Filename: firmware-dvb-usb-dtt200u-01_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-dtt200u-01.bb
+Description: firmware-dvb-usb-dtt200u-01 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-dtt200u-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-it913x
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ee484e7c0b8ff2b0a410538a4b793cf2
+SHA256sum: fbd15717069362c38f7474db28e6f96732a3d75f8bda54a06b0b4e06cce0f76d
+Size: 10270
+Filename: firmware-dvb-usb-it913x_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-it913x.bb
+Description: firmware-dvb-usb-it913x version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-it913x
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-s660
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 525c2656b37b072b2ec92bcf3da134d0
+SHA256sum: b6b489c80d2d613e6765ed4271d72026a3a948246049d4af8d149baf355a8244
+Size: 3134
+Filename: firmware-dvb-usb-s660_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-s660.bb
+Description: firmware-dvb-usb-s660 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-s660
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-tbs5925
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 03b2857cf6ae7bfe9fe6fdda23f6dc4c
+SHA256sum: 93543ecd3c705542735e9e19b8d901c440fe38a92e153d6f01d321421f866901
+Size: 3326
+Filename: firmware-dvb-usb-tbs5925_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-tbs5925.bb
+Description: firmware-dvb-usb-tbs5925 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-tbs5925
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-tbs5980
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c4355965c598fb3c7561a549ab46e71
+SHA256sum: d5c671f84ac1a8a3075a68f7abb98478ec4a9375e0062f5427af33c07336d9a3
+Size: 3554
+Filename: firmware-dvb-usb-tbs5980_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-tbs5980.bb
+Description: firmware-dvb-usb-tbs5980 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-tbs5980
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-technisat-skystar
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 66a49a0306158584beae0b21d9c59a7d
+SHA256sum: 1d7ea6073d678e08063dfa57e75801c3390a3ef8e345bd01dccea2ac80343859
+Size: 6480
+Filename: firmware-dvb-usb-technisat-skystar_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-technisat-skystar.bb
+Description: firmware-dvb-usb-technisat-skystar version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-technisat-skystar
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-wt220u-02
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df3fcf32c72a114870ed625370a5b136
+SHA256sum: 6f43a721520dd48348e42eeceb6a9c29ecc5da80d6c76acf2b0e75a9e1a77fad
+Size: 5980
+Filename: firmware-dvb-usb-wt220u-02_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-wt220u-02.bb
+Description: firmware-dvb-usb-wt220u-02 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-wt220u-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-wt220u-fc03
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f69f644a0b6e5f9cc1f4949cde0995df
+SHA256sum: c612bf7a6dbcfa86398fc246c0f8ba93bdf03734b6f65efb15a22464c8f866a6
+Size: 8222
+Filename: firmware-dvb-usb-wt220u-fc03_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-wt220u-fc03.bb
+Description: firmware-dvb-usb-wt220u-fc03 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-wt220u-fc03
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-wt220u-miglia-01
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1336cd97d1ab57e496c0b43b788cc7f1
+SHA256sum: be66dd29d16682de8d450b117dcb285b378e7b9b84a20eeda67de688b2019f7c
+Size: 7316
+Filename: firmware-dvb-usb-wt220u-miglia-01_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-wt220u-miglia-01.bb
+Description: firmware-dvb-usb-wt220u-miglia-01 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-wt220u-miglia-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-wt220u-zl0353-01
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 62e0fbeae12be5c6e4a70954764099ab
+SHA256sum: 8b202510f70e45e7d886590f488e3897ebe1ed5b6d51ebbd1fcd9040e1c91fa2
+Size: 6062
+Filename: firmware-dvb-usb-wt220u-zl0353-01_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-dvb-usb-wt220u-zl0353-01.bb
+Description: firmware-dvb-usb-wt220u-zl0353-01 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-dvb-usb-wt220u-zl0353-01
 License: CLOSED
 Priority: optional
 
@@ -426,6 +3748,21 @@ Filename: firmware-htc9271_1.1+git296+4b2b151-r0_all.ipk
 Source: firmware-htc9271.bb
 Description: firmware-htc9271 version 1.1+gitAUTOINC+4b2b151e18-r0
 OE: firmware-htc9271
+License: CLOSED
+Priority: optional
+
+Package: firmware-isdbt-nova-12mhz-b0
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 23f0b95ec91ec70a3fb83de4e0beb54e
+SHA256sum: b04d6e15a66e25a2d376f76bbc8b4ba52084c183a77c774f3b1d8326c22123af
+Size: 51610
+Filename: firmware-isdbt-nova-12mhz-b0_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-isdbt-nova-12mhz-b0.bb
+Description: firmware-isdbt-nova-12mhz-b0 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-isdbt-nova-12mhz-b0
 License: CLOSED
 Priority: optional
 
@@ -489,6 +3826,21 @@ OE: firmware-rtl8188eu
 License: CLOSED
 Priority: optional
 
+Package: firmware-rtl8188fu
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 97cdd98acafd78c08f4e85e6c6f2b213
+SHA256sum: 2170cf4c81413fc4e752c443466bc6783eac9b1de4f3ab04af0fd418877b2361
+Size: 13580
+Filename: firmware-rtl8188fu_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-rtl8188fu.bb
+Description: firmware-rtl8188fu version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-rtl8188fu
+License: CLOSED
+Priority: optional
+
 Package: firmware-rtl8192cu
 Version: 1.1+git296+4b2b151-r0
 Section: base
@@ -534,6 +3886,21 @@ OE: firmware-rtl8712u
 License: CLOSED
 Priority: optional
 
+Package: firmware-rtl8723bu
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9594b630bbbc0538e0d5d711d9194eda
+SHA256sum: 5d0d2b1847e3f2fa5bed1d64bc8dcd1cd7c21ba8898c129f041cc4499e7630dd
+Size: 65716
+Filename: firmware-rtl8723bu_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-rtl8723bu.bb
+Description: firmware-rtl8723bu version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-rtl8723bu
+License: CLOSED
+Priority: optional
+
 Package: firmware-rtl8xxxu
 Version: 1.1+git296+4b2b151-r0
 Section: base
@@ -546,6 +3913,66 @@ Filename: firmware-rtl8xxxu_1.1+git296+4b2b151-r0_all.ipk
 Source: firmware-rtl8xxxu.bb
 Description: firmware-rtl8xxxu version 1.1+gitAUTOINC+4b2b151e18-r0
 OE: firmware-rtl8xxxu
+License: CLOSED
+Priority: optional
+
+Package: firmware-xc3028-v27
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 36131c5d147f73a439463b234b64f9e0
+SHA256sum: 1bc345015e293c500b18f31f1732667261e218caaf5fab013d4b59600249f4e1
+Size: 13174
+Filename: firmware-xc3028-v27_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-xc3028-v27.bb
+Description: firmware-xc3028-v27 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-xc3028-v27
+License: CLOSED
+Priority: optional
+
+Package: firmware-xc3028l-v36
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 133d3f89c7a8bb33f2c931ec7b9de08e
+SHA256sum: 5478d3908d53405ef731bbbfd9e84d3e9b6b7c46dc1f7dd1e1c2f93dc537cef7
+Size: 15142
+Filename: firmware-xc3028l-v36_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-xc3028l-v36.bb
+Description: firmware-xc3028l-v36 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-xc3028l-v36
+License: CLOSED
+Priority: optional
+
+Package: firmware-xc5000
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1c5c3b57717c2b0ba51fdc62ba192d80
+SHA256sum: 4b523d9f23a7fd119bcc4ad40851ce46feb925e095be456b240998503b3e3185
+Size: 9430
+Filename: firmware-xc5000_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-xc5000.bb
+Description: firmware-xc5000 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-xc5000
+License: CLOSED
+Priority: optional
+
+Package: firmware-xc5000c
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 28588a6abd2bb0c48fbd86a4f85862eb
+SHA256sum: ecec0b572a74965651baa979a7b041cdda456a8c40e67282632f5ed106864920
+Size: 12076
+Filename: firmware-xc5000c_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-xc5000c.bb
+Description: firmware-xc5000c version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-xc5000c
 License: CLOSED
 Priority: optional
 
@@ -3732,6 +7159,115 @@ HomePage: http://roy.marples.name/projects/openresolv
 License: BSD-2-Clause
 Priority: optional
 
+Package: os-release-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 47260cf513e703cb3db97597bef56b8e
+SHA256sum: 122e7d30acded3279fa94fc68a2862872e59ee4c99254faee262694bd7dba1ae
+Size: 688
+Filename: os-release-dbg_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification - Debugging files
+OE: os-release
+License: MIT
+Priority: optional
+
+Package: os-release-dev
+Version: 1.0-r0
+Depends: os-release (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 67142c7d358cbb54a1f03379848e1e16
+SHA256sum: 8aaaed953de3d188f1fc631e276eb3a0fa067fbf7dd5061c04b2d6ecf5cc834e
+Size: 718
+Filename: os-release-dev_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification - Development files
+OE: os-release
+License: MIT
+Priority: optional
+
+Package: os-release-initrd
+Version: 1.0-r0
+Depends: os-release
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d5458e900338b888a883dc6123b98d86
+SHA256sum: f14413b9ae44e003630e9851e715a7ecbe71d48f4ae3f519bda97b8df8695b7d
+Size: 740
+Filename: os-release-initrd_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification
+OE: os-release
+License: MIT
+Priority: optional
+
+Package: os-release
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bf698ce094670335d68774c33fd3a21c
+SHA256sum: 7498edb676bd729294bfe3ae26bbd8702d2a16183a91135321e85ca22d9bd3eb
+Size: 822
+Filename: os-release_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification
+OE: os-release
+License: MIT
+Priority: optional
+
+Package: packagegroup-openplugins-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f69b6ff6a01010698200718a55e5ce6f
+SHA256sum: 532968813651d39e6937d3e52bc09a8e41a1fbc57b16ac9d75b6663dbdfba28c
+Size: 678
+Filename: packagegroup-openplugins-dbg_1.0-r0_all.ipk
+Source: packagegroup-openplugins.bb
+Description: packagegroup-openplugins version 1.0-r0 - Debugging files
+OE: packagegroup-openplugins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: packagegroup-openplugins-dev
+Version: 1.0-r0
+Depends: packagegroup-openplugins (= 1.0-r0)
+Recommends: enigma2-plugin-extensions-addstreamurl-dev, enigma2-plugin-extensions-analogclock-dev, enigma2-plugin-extensions-antilogo-dev, enigma2-plugin-extensions-autobackup-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-bitrate-dev, enigma2-plugin-extensions-blackoutblind-dev, enigma2-plugin-extensions-cacheflush-dev, enigma2-plugin-extensions-changerootpassword-dev, enigma2-plugin-extensions-epgimportfilter-dev, enigma2-plugin-extensions-filecommander-dev, enigma2-plugin-extensions-foreca-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-magentamusik360-dev, enigma2-plugin-extensions-meteoviewer-dev, enigma2-plugin-extensions-newsreader-dev, enigma2-plugin-extensions-nfsserver-dev, enigma2-plugin-extensions-openwebif-dev, enigma2-plugin-extensions-oroscopoitalia-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-permanentvfdclock-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-remotecontrolchannel-dev, enigma2-plugin-extensions-screenposition-dev, enigma2-plugin-extensions-setpicon-dev, enigma2-plugin-extensions-shootyourscreen-dev, enigma2-plugin-extensions-snmpagent-dev, enigma2-plugin-extensions-streaminterface-dev, enigma2-plugin-extensions-systemtools-dev, enigma2-plugin-extensions-telekomsport-dev, enigma2-plugin-extensions-wakeonlan-dev, enigma2-plugin-extensions-xpower-dev, enigma2-plugin-systemplugins-autobouquetsmaker-dev, enigma2-plugin-systemplugins-autoshutdown-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 86ce82f55758cc34115c58efc1e1c139
+SHA256sum: 807332678839d53368aabff1f103111ee4dd23f822287a57637d700ae3030c69
+Size: 1040
+Filename: packagegroup-openplugins-dev_1.0-r0_all.ipk
+Source: packagegroup-openplugins.bb
+Description: packagegroup-openplugins version 1.0-r0 - Development files
+OE: packagegroup-openplugins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: packagegroup-openplugins
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 436923a63c7bfb9575ec595a86905cfc
+SHA256sum: ffec149890e280966b31c17dd98c66d1ae1d179e2c2c8a7dac66b59d95b26904
+Size: 614
+Filename: packagegroup-openplugins_1.0-r0_all.ipk
+Source: packagegroup-openplugins.bb
+Description: packagegroup-openplugins version 1.0-r0
+OE: packagegroup-openplugins
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: run-postinsts-dbg
 Version: 1.0-r10
 Section: devel
@@ -3795,50 +7331,117 @@ OE: settings-autorestore
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: softcam-support
+Version: 2-r0
+Recommends: update-rc.d
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 85911b783d22d3cead06b4bdcc8a1e47
+SHA256sum: e5caf1f71a07273d04f872b7e38fcc8c6a31f4c06a5697ad2800e33dcbb08dbc
+Size: 982
+Filename: softcam-support_2-r0_all.ipk
+Source: softcam-support.bb
+Description: Start, stop and select softcams.
+OE: softcam-support
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: streamlinksrv-dbg
+Version: 1.8.2-git25+c7ae8ab-r0
+Section: devel
+Architecture: all
+Maintainer: SatDreamGR Billy2011
+MD5Sum: 680716e5334d6e83a7dd8bf71862500a
+SHA256sum: cbda048d674e5a4deac3d7077b7680dc0dd717fc0d51e19d634628131df3a046
+Size: 708
+Filename: streamlinksrv-dbg_1.8.2-git25+c7ae8ab-r0_all.ipk
+Source: streamlinksrv.bb
+Description: streamlinksrv version gitAUTOINC+c7ae8ab3f8-r0 - Debugging files
+OE: streamlinksrv
+HomePage: www.satdreamgr.com
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: streamlinksrv-dev
+Version: 1.8.2-git25+c7ae8ab-r0
+Depends: streamlinksrv (= 1.8.2-git25+c7ae8ab-r0)
+Recommends: python3-core-dev, streamlink-dev
+Section: devel
+Architecture: all
+Maintainer: SatDreamGR Billy2011
+MD5Sum: 80a475a3e71d1de78ca25a2925ffe9ae
+SHA256sum: 73d2167d333841846d22fc066156342980cbcb1c7a0043a0383a6326c1c68a24
+Size: 762
+Filename: streamlinksrv-dev_1.8.2-git25+c7ae8ab-r0_all.ipk
+Source: streamlinksrv.bb
+Description: streamlinksrv version gitAUTOINC+c7ae8ab3f8-r0 - Development files
+OE: streamlinksrv
+HomePage: www.satdreamgr.com
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: streamlinksrv
+Version: 1.8.2-git25+c7ae8ab-r0
+Depends: python3-core, streamlink
+Section: devel/python
+Architecture: all
+Maintainer: SatDreamGR Billy2011
+MD5Sum: 48fdaa2e17dcdd5eaf6f09f6bcff5fed
+SHA256sum: 393f3e542958ea0acca00d845d5bed1c73df943ffda503e3cd73e3fe6d392bfb
+Size: 83222
+Filename: streamlinksrv_1.8.2-git25+c7ae8ab-r0_all.ipk
+Source: streamlinksrv.bb
+Description: streamlinksrv version gitAUTOINC+c7ae8ab3f8-r0
+OE: streamlinksrv
+HomePage: www.satdreamgr.com
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: tuxbox-common-dbg
-Version: 3+git639+ddd616b-r0
+Version: 3+git643+b0a4945-r0
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 5db1615c608ef1712de17143da2d98fa
-SHA256sum: 0579aa3cf1586f30179a2b1318a74f1cdd2978ff774a71d8e9c4a7a7fb456872
-Size: 668
-Filename: tuxbox-common-dbg_3+git639+ddd616b-r0_all.ipk
+MD5Sum: fb0c47879828621865a12e0728bcb204
+SHA256sum: 2fb28bf573a87635c268a1142047d462db283a38e420e5752b166a8b1d9f3723
+Size: 670
+Filename: tuxbox-common-dbg_3+git643+b0a4945-r0_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 3+gitAUTOINC+ddd616b2c7-r0 - Debugging files
+Description: tuxbox-common version 3+gitAUTOINC+b0a4945f2a-r0 - Debugging files
 OE: tuxbox-common
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 3+git639+ddd616b-r0
-Depends: tuxbox-common (= 3+git639+ddd616b-r0)
+Version: 3+git643+b0a4945-r0
+Depends: tuxbox-common (= 3+git643+b0a4945-r0)
 Recommends: xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 658e90594503d567075b934c85abbca3
-SHA256sum: 375afaf6584b54829b3acb54a12731cfac694186302cabe66cc5a1b4575b96a4
-Size: 714
-Filename: tuxbox-common-dev_3+git639+ddd616b-r0_all.ipk
+MD5Sum: 7c2ca2ed8a743508519ee1fc1dd2fd27
+SHA256sum: aff644ac467947ec941fd84ab7a52a45c8bd47303e993cead3e49d05415e9710
+Size: 716
+Filename: tuxbox-common-dev_3+git643+b0a4945-r0_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 3+gitAUTOINC+ddd616b2c7-r0 - Development files
+Description: tuxbox-common version 3+gitAUTOINC+b0a4945f2a-r0 - Development files
 OE: tuxbox-common
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 3+git639+ddd616b-r0
+Version: 3+git643+b0a4945-r0
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 495b92f1b707a0e3c8ffb3574e908305
-SHA256sum: 93286b069fd72928e121e3edfdedf311143116a4dc3f8b543bd692fe8fb7c81f
-Size: 49208
-Filename: tuxbox-common_3+git639+ddd616b-r0_all.ipk
+MD5Sum: 71654e4379bf85bc1e29989ceadd25f4
+SHA256sum: a20ec2d7e3c0034cf549f028b02ca9b30efc25a724f4d2b7b7e834f03fbaa504
+Size: 49224
+Filename: tuxbox-common_3+git643+b0a4945-r0_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 3+gitAUTOINC+ddd616b2c7-r0
+Description: tuxbox-common version 3+gitAUTOINC+b0a4945f2a-r0
 OE: tuxbox-common
 License: GPL-2.0-or-later
 Priority: optional
@@ -4084,6 +7687,54 @@ Description: manage symlinks in /etc/rcN.d
 OE: update-rc.d
 HomePage: http://github.com/philb/update-rc.d/
 License: GPL-2.0-or-later
+Priority: optional
+
+Package: usb-modeswitch-data-dbg
+Version: 20191128-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4f03f0a7f7ea51e4d7308eed7526f7a
+SHA256sum: 1f8183ce9d177ed9e4a45a051c412bad1d480d3ea06d313f088414592a2ca7a9
+Size: 684
+Filename: usb-modeswitch-data-dbg_20191128-r0_all.ipk
+Source: usb-modeswitch-data_20191128.bb
+Description: Data files for usbmodeswitch - Debugging files
+OE: usb-modeswitch-data
+License: GPL-2.0-only
+Priority: optional
+
+Package: usb-modeswitch-data-dev
+Version: 20191128-r0
+Depends: usb-modeswitch-data (= 20191128-r0)
+Recommends: usb-modeswitch-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0331715dd5f37871799179b8062692bd
+SHA256sum: a3c43631094092b5c117f280772567933863cb9ce79b6187472e85451be20dd5
+Size: 722
+Filename: usb-modeswitch-data-dev_20191128-r0_all.ipk
+Source: usb-modeswitch-data_20191128.bb
+Description: Data files for usbmodeswitch - Development files
+OE: usb-modeswitch-data
+License: GPL-2.0-only
+Priority: optional
+
+Package: usb-modeswitch-data
+Version: 20191128-r0
+Depends: usb-modeswitch (>= 2.4.0)
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f40a5327420e9c6d44968e060f52985f
+SHA256sum: 75c1b1a7cdbac61167a1896e0e51098786d9da74fa29c83e6f6e570a6b9bec57
+Size: 17456
+Filename: usb-modeswitch-data_20191128-r0_all.ipk
+Source: usb-modeswitch-data_20191128.bb
+Description: Data files for usbmodeswitch
+OE: usb-modeswitch-data
+License: GPL-2.0-only
 Priority: optional
 
 Package: volatile-media
