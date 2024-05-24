@@ -163,8 +163,8 @@ Version: 3.0.14-r89
 Section: base
 Architecture: et1x000
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3468ee081ab3312153f224abcdbadbb0
-SHA256sum: 439da06b253285c7d02d28a13809cbe73da56f2c28fcc713eac353911f99dbf9
+MD5Sum: f15c3b7412734497226ac35b2e61bc8f
+SHA256sum: 45bec20448607c7ef1892c4edce3ab6c5b8e430898fc05726f4d3f25830fe4a0
 Size: 3720
 Filename: base-files_3.0.14-r89_et1x000.ipk
 Source: base-files_3.0.14.bb
@@ -239,9 +239,9 @@ Version: kirkstone-r0
 Section: base
 Architecture: et1x000
 Maintainer: OpenPLi team
-MD5Sum: 4c79c8efb003cdbd20ddc3db626aaf1b
-SHA256sum: 3ca7e858a89c0ae27ab9c18f0ca6e8fea7e74ed9945ab784df1e758cd7321072
-Size: 2852
+MD5Sum: ed5104601612bc71f96deeb7bcd2f782
+SHA256sum: a0b16a99e87c473d6dd76174b44d59d100f260b8d4a0ed3dc5b837dd7190021c
+Size: 2856
 Filename: enigma-info_kirkstone-r0_et1x000.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
